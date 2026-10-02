@@ -23,45 +23,89 @@ export default function Home() {
 
       <main className="flex-1">
         {/* 1. Hero Section */}
-        <section className="bg-blue-950 text-white pt-24 pb-16 px-6 sm:px-12 relative overflow-hidden">
-          <div className="max-w-7xl mx-auto relative z-10">
-            {/* Work in Progress Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold uppercase tracking-wider mb-8 shadow-sm">
-              <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
-              Community Alpha - Work in Progress
+        <section className="bg-gradient-to-b from-blue-950 via-slate-900 to-blue-950 text-white pt-20 pb-16 px-6 sm:px-12 relative overflow-hidden">
+          <div className="max-w-7xl mx-auto relative z-10 space-y-8">
+            {/* Community Badge */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-bold uppercase tracking-wider shadow-xs">
+              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+              Independent Civic Platform &bull; Made by Dabawenyos
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight max-w-4xl">
-              Open Data, Fiscal Transparency, and Civic Governance for Dabawenyos.
-            </h1>
-            <p className="text-xl md:text-2xl text-blue-200 max-w-3xl mb-10 leading-relaxed font-light">
-              An independent, community-driven civic watchdog portal for monitoring Davao City's public budget, infrastructure contracts, and legislative records.
-            </p>
+            {/* Main Headline */}
+            <div className="space-y-4 max-w-4xl">
+              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.1]">
+                A City Like No Other. <br />
+                Welcome to <span className="text-amber-400">Better Davao</span>.
+              </h1>
+              <p className="text-lg sm:text-2xl text-blue-100 leading-relaxed font-light">
+                From the heights of Mount Apo and our 11 living cultural tribes to peaceful midnight streets and pure mountain tap water, Davao has always done things with pride and grit. Better Davao is an independent community space celebrating everything that makes our city special—while giving every citizen the transparent data to make our home even better.
+              </p>
+            </div>
+
+            {/* City Pride Highlights */}
+            <div className="flex flex-wrap gap-2.5 sm:gap-3 text-xs sm:text-sm font-semibold text-slate-200">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 backdrop-blur-xs border border-white/15">
+                🏔️ Mount Apo (2,954m Peak)
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 backdrop-blur-xs border border-white/15">
+                🦅 Home of the Philippine Eagle
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 backdrop-blur-xs border border-white/15">
+                💧 100% Potable Mountain Tap Water
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 backdrop-blur-xs border border-white/15">
+                🚑 24/7 Zero-Cost Central 911
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 backdrop-blur-xs border border-white/15">
+                👑 Fruit &amp; Cacao Capital
+              </span>
+            </div>
 
             {/* Fast Action CTAs */}
-            <div className="flex flex-wrap gap-4 mb-12">
-              <Link href="/budget" className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-bold shadow-lg transition-colors border border-blue-500">
-                Inspect ₱12.7B Budget &rarr;
+            <div className="flex flex-wrap gap-3.5 pt-2">
+              <Link
+                href="/life-is-here"
+                className="bg-amber-400 hover:bg-amber-300 text-slate-950 px-6 py-3.5 rounded-xl font-black shadow-lg transition-all transform hover:-translate-y-0.5 inline-flex items-center gap-2 text-sm sm:text-base"
+              >
+                Why Life Is Here &rarr;
               </Link>
-              <Link href="/projects" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-bold shadow-lg transition-colors border border-slate-700">
-                Track Public Projects
+              <Link
+                href="/agenda"
+                className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3.5 rounded-xl font-bold shadow-md transition-all border border-blue-500 text-sm sm:text-base"
+              >
+                12-Point Priority Agenda
               </Link>
-              <Link href="/council" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-bold shadow-lg transition-colors border border-slate-700">
-                21st City Council
+              <Link
+                href="/budget"
+                className="bg-slate-800/90 hover:bg-slate-700 text-white px-6 py-3.5 rounded-xl font-bold shadow-md transition-all border border-slate-700 text-sm sm:text-base"
+              >
+                Inspect ₱12.7B Budget
               </Link>
-              <Link href="/about" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-bold shadow-lg transition-colors border border-slate-700">
-                Methodology &amp; Standards
+              <Link
+                href="/projects"
+                className="bg-slate-800/90 hover:bg-slate-700 text-white px-6 py-3.5 rounded-xl font-bold shadow-md transition-all border border-slate-700 text-sm sm:text-base"
+              >
+                Track City Projects
               </Link>
             </div>
 
             {/* Direct 911 Banner */}
-            <div className="inline-flex items-center gap-4 bg-red-600/20 border border-red-500/50 rounded-xl p-4 max-w-xl backdrop-blur-sm">
-              <div className="bg-red-600 text-white font-black text-2xl px-3 py-2 rounded-lg shadow-inner">
+            <div className="inline-flex items-center gap-4 bg-red-600/20 border border-red-500/40 rounded-2xl p-4 max-w-xl backdrop-blur-md">
+              <a
+                href="tel:911"
+                className="bg-red-600 hover:bg-red-500 text-white font-black text-2xl px-3.5 py-2 rounded-xl shadow-inner transition shrink-0"
+                title="Call Central 911"
+              >
                 911
-              </div>
+              </a>
               <div>
-                <div className="text-red-200 font-bold uppercase text-xs tracking-wider">Emergency Hotline</div>
-                <div className="text-white font-medium text-sm mt-0.5">Central 911 is active 24/7 in Davao City for medical, fire, and police emergencies.</div>
+                <div className="text-red-300 font-extrabold uppercase text-xs tracking-wider flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-red-400 animate-ping"></span>
+                  Central 911 Emergency Hotline
+                </div>
+                <div className="text-white font-medium text-xs sm:text-sm mt-0.5 leading-snug">
+                  Active 24/7 across all Davao districts for free medical, fire, search, and police emergencies.
+                </div>
               </div>
             </div>
           </div>
