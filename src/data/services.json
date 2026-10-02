@@ -1,0 +1,101 @@
+{
+  "categories": [
+    "Permits & Licensing",
+    "Taxes & Finance",
+    "Social Assistance",
+    "Civil Documents",
+    "Public Safety & Transit"
+  ],
+  "services": [
+    {
+      "id": "ebpls",
+      "title": "Business Permits & Licensing (eBPLS)",
+      "category": "Permits & Licensing",
+      "short_description": "Apply for, renew, and track city business permits online through Davao City's digital licensing portal.",
+      "action_label": "Access eBPLS Portal",
+      "action_url": "https://appbts.davaocity.gov.ph/",
+      "tracking_url": "https://appbts.davaocity.gov.ph/tracking",
+      "status": "Online Service",
+      "department": "Business Bureau",
+      "tip": "Track existing permit applications in real-time using your application reference code."
+    },
+    {
+      "id": "obps",
+      "title": "Online Building Permit System (OBPS)",
+      "category": "Permits & Licensing",
+      "short_description": "Submit building plans, zoning clearances, and construction permits with transparent digital review.",
+      "action_label": "Access OBPS Portal",
+      "action_url": "https://obps.davaocity.gov.ph/",
+      "tracking_url": "https://obps.davaocity.gov.ph/applicationstatus/",
+      "status": "Online Service",
+      "department": "Office of the City Building Official",
+      "tip": "Check structural and architectural clearance statuses directly from the tracking dashboard."
+    },
+    {
+      "id": "cedula",
+      "title": "Community Tax Certificate (Online Cedula)",
+      "category": "Taxes & Finance",
+      "short_description": "File community tax applications online for employment, notarization, and banking requirements.",
+      "action_label": "Apply for Cedula",
+      "action_url": "https://cedula.davaocity.gov.ph/Home/",
+      "status": "Online Service",
+      "department": "City Treasurer's Office",
+      "tip": "Generate your payment reference code before heading to authorized payment windows."
+    },
+    {
+      "id": "online-payments",
+      "title": "Real Property Tax & City Payments",
+      "category": "Taxes & Finance",
+      "short_description": "Electronic assessment and payment channels for real property taxes, regulatory fees, and city dues.",
+      "action_label": "View Payment Options",
+      "action_url": "https://davaocity.gov.ph/services/online-payments/",
+      "status": "Informational & Payment",
+      "department": "City Treasurer's Office",
+      "tip": "Early bird payment discounts are typically announced during the first quarter of the fiscal year."
+    },
+    {
+      "id": "lingap",
+      "title": "Lingap para sa Mahirap Medical Aid",
+      "category": "Social Assistance",
+      "short_description": "City government medical subsidies, hospitalization bills support, and funeral aid for indigent families.",
+      "action_label": "Learn About Lingap",
+      "action_url": "https://davaocity.gov.ph/services/social-services/",
+      "status": "Assistance Program",
+      "department": "City Social Welfare and Development Office (CSWDO)",
+      "tip": "Bring valid government ID, medical abstract, and hospital billing statement to expedite processing."
+    },
+    {
+      "id": "civil-registry",
+      "title": "Local Civil Registry Services",
+      "category": "Civil Documents",
+      "short_description": "Processing and certified copies of Certificates of Live Birth, Marriage, and Death records.",
+      "action_label": "Civil Registry Info",
+      "action_url": "https://davaocity.gov.ph/services/civil-registry-services/",
+      "status": "Citizen Records",
+      "department": "City Civil Registrar's Office",
+      "tip": "Appointments can be scheduled ahead to avoid long lines during peak hours."
+    },
+    {
+      "id": "careers",
+      "title": "City Government Career Opportunities",
+      "category": "Public Safety & Transit",
+      "short_description": "Explore vacant permanent, contractual, and job-order opportunities within Davao City LGU departments.",
+      "action_label": "Explore Job Openings",
+      "action_url": "https://davaocity.gov.ph/services/career-opportunities/",
+      "status": "Job Openings",
+      "department": "Human Resource Management Office (HRMO)",
+      "tip": "Review CSC eligibility requirements and submission deadlines before submitting your PDS."
+    },
+    {
+      "id": "council-sp",
+      "title": "Sangguniang Panlungsod Legislative Portal",
+      "category": "Permits & Licensing",
+      "short_description": "Read approved ordinances, council committee hearings, and legislative session agendas.",
+      "action_label": "Visit SP Portal",
+      "action_url": "https://sp.davaocity.gov.ph/",
+      "status": "Legislative Records",
+      "department": "Sangguniang Panlungsod (21st City Council)",
+      "tip": "Search public hearing notices to participate in local policy discussions."
+    }
+  ]
+}

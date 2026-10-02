@@ -1,0 +1,78 @@
+{
+  "title": "Davao City 12-Point Priority Agenda",
+  "description": "The strategic municipal development blueprint designed to drive inclusive economic progress, modern infrastructure, and citizen well-being across Davao City.",
+  "pillars": [
+    {
+      "number": 1,
+      "title": "Poverty Alleviation & Social Safety",
+      "summary": "Expanding targeted assistance, livelihood grants, and inclusive opportunities that empower vulnerable households to achieve financial independence.",
+      "icon": "hand-heart"
+    },
+    {
+      "number": 2,
+      "title": "Modern Infrastructure & Connectivity",
+      "summary": "Building resilient bypass networks, modern transit corridors, and flood-control barriers that support rapid urban growth.",
+      "icon": "building-office"
+    },
+    {
+      "number": 3,
+      "title": "Agricultural Modernization & Food Security",
+      "summary": "Strengthening local farmer cooperatives, produce cold storage, and sustainable agribusiness value chains across Davao's rural districts.",
+      "icon": "leaf"
+    },
+    {
+      "number": 4,
+      "title": "Environmental Stewardship & Watershed Protection",
+      "summary": "Conserving natural waterways, managing waste responsibly, and guarding Mount Apo's ecological sanctuaries.",
+      "icon": "shield-check"
+    },
+    {
+      "number": 5,
+      "title": "Accessible Public Healthcare",
+      "summary": "Equipping district hospitals, expanding barangay health stations, and ensuring essential medicines reach every neighborhood.",
+      "icon": "heart-pulse"
+    },
+    {
+      "number": 6,
+      "title": "Educational Excellence & Youth Development",
+      "summary": "Investing in modern public school facilities, scholarship programs, and vocational training to build a globally competitive workforce.",
+      "icon": "academic-cap"
+    },
+    {
+      "number": 7,
+      "title": "Business Growth & Investment Climate",
+      "summary": "Promoting fair market competition, streamlined business licensing, and attractive incentives for job-creating enterprises.",
+      "icon": "chart-bar"
+    },
+    {
+      "number": 8,
+      "title": "Public Peace, Order & Community Safety",
+      "summary": "Preserving Davao's recognized public security standards through community policing, smart surveillance, and drug prevention.",
+      "icon": "shield-exclamation"
+    },
+    {
+      "number": 9,
+      "title": "Digital Governance & Ease of Doing Business",
+      "summary": "Automating permit processing, adopting open data portals, and reducing bureaucratic delays for citizens and entrepreneurs.",
+      "icon": "computer-desktop"
+    },
+    {
+      "number": 10,
+      "title": "Integrated Mass Transit & Traffic Management",
+      "summary": "Rolling out clean electric and Euro-standard bus fleets, intelligent traffic signaling, and pedestrian-friendly walkways.",
+      "icon": "truck"
+    },
+    {
+      "number": 11,
+      "title": "Cultural Heritage & Eco-Tourism",
+      "summary": "Celebrating indigenous tribal heritage through festivals like Kadayawan while promoting responsible eco-tourism across the Davao Gulf.",
+      "icon": "sparkles"
+    },
+    {
+      "number": 12,
+      "title": "Disaster Preparedness & Climate Resilience",
+      "summary": "Strengthening Central 911 dispatch capabilities, updating geohazard mapping, and training grassroots disaster response teams.",
+      "icon": "lifebuoy"
+    }
+  ]
+}

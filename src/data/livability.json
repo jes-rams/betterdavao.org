@@ -1,0 +1,94 @@
+{
+  "slogan": "Davao: Life Is Here",
+  "subtitle": "Discover Why Millions of Dabawenyos and Newcomers Choose to Live, Work, and Raise Families in Davao City",
+  "introduction": "The official city motto, 'Davao: Life Is Here,' is more than a tourism slogan—it is a lived civic reality. From strict community discipline and rapid emergency response to clean mountain water and rich cultural harmony, Davao City offers a balanced, secure lifestyle rarely matched in Southeast Asian metropolises.",
+  "livability_pillars": [
+    {
+      "id": "peace-and-discipline",
+      "badge": "Public Safety",
+      "title": "Discipline, Order, and Peace of Mind",
+      "summary": "Strict local ordinances protect citizen well-being day and night.",
+      "description": "Davao City is celebrated across the nation for its uncompromising civic discipline. With landmark ordinances such as the 100% Smoke-Free City policy, mandatory speed limits (30-60 km/h) that drastically reduced vehicular crashes, a 1:00 AM liquor curfew, and a total ban on firecrackers, residential neighborhoods stay peaceful and quiet. Dabawenyos—students, night-shift workers, and families—can walk public streets with confidence and peace of mind.",
+      "stat": "20+ Years",
+      "stat_label": "Of Zero-Firecracker Casualties & Clean Air Ordinances",
+      "image": "/images/landmarks/davao-city-hall.jpg"
+    },
+    {
+      "id": "central-911",
+      "badge": "Emergency Readiness",
+      "title": "Central 911: Free, Instant Emergency Response",
+      "summary": "One of Asia's premier integrated medical, fire, and police response networks.",
+      "description": "Modeled after world-class emergency dispatchers, Davao's Central 911 coordinates paramedics, firefighters, police, urban search and rescue, and canine units through a single toll-free number. Every Dabawenyo, regardless of social background, receives rapid emergency medical assistance and hospital transport at absolutely zero cost to the caller.",
+      "stat": "24/7/365",
+      "stat_label": "Zero-Cost Emergency Medical & Disaster Dispatch",
+      "image": "/images/landmarks/davao-coastal-road.jpg"
+    },
+    {
+      "id": "climate-resilience",
+      "badge": "Natural Shield",
+      "title": "Typhoon-Resilient Geography",
+      "summary": "Outside the typical typhoon corridor, shielded by mountain ranges.",
+      "description": "Geographically nestled along the Davao Gulf and sheltered by Mount Apo and the Bukidnon mountain ranges, Davao City sits outside the typhoon belt that frequently buffets northern and central Philippines. This natural geographic advantage gives residents predictable weather, food security, and a climate resilient environment for long-term investments and family life.",
+      "stat": "2,954 m",
+      "stat_label": "Mount Apo Natural Mountain Protective Shield",
+      "image": "/images/landmarks/mount-apo.jpg"
+    },
+    {
+      "id": "clean-water",
+      "badge": "Health & Utilities",
+      "title": "World-Class, Potable Tap Water",
+      "summary": "Directly drinkable tap water sourced from pristine natural aquifers.",
+      "description": "Davao City's tap water—managed by the Davao City Water District (DCWD) and complemented by the bulk water supply from the Tamugan River—is recognized among the purest and most potable municipal water sources worldwide. Sourced from deep volcanic aquifers filtered through pristine rainforests, residents enjoy crisp, safe drinking water straight from the tap.",
+      "stat": "100%",
+      "stat_label": "Laboratory-Tested Potable Tap Water",
+      "image": "/images/landmarks/peoples-park-durian-dome.jpg"
+    },
+    {
+      "id": "cultural-harmony",
+      "badge": "Unity in Diversity",
+      "title": "Harmonious Home of 11 Ethnolinguistic Tribes",
+      "summary": "A tapestry of Lumad indigenous peoples and Moro nations living in mutual respect.",
+      "description": "Davao City is proud of its unique cultural identity, built upon the harmonious coexistence of 11 recognized ethnolinguistic tribes—5 Lumad indigenous communities (Ata, Klata, Matigsalug, Ovu-Manuvu, and Tagabawa) and 6 Moro nations (Iranun, Kagan, Maguindanaon, Maranao, Sama, and Tausug). The city actively preserves tribal governance with dedicated Deputy Mayors and celebrates their heritage every August during the world-renowned Kadayawan Festival.",
+      "stat": "11 Tribes",
+      "stat_label": "Represented in Local Government & Cultural Affairs",
+      "image": "/images/landmarks/kadayawan-festival.jpg"
+    },
+    {
+      "id": "food-abundance",
+      "badge": "Food Security",
+      "title": "Fruit Basket & Agricultural Bounty",
+      "summary": "Affordable nutrition, world-class chocolates, and fresh harvest year-round.",
+      "description": "Surrounded by fertile volcanic soil, Davao City is the Fruit and Cacao Capital of the Philippines. Citizens enjoy year-round abundance of durian, pomelo, mangosteen, marang, and fresh tuna and seafood from the Davao Gulf. The cost of nutritious food remains significantly more accessible than in congested capital cities.",
+      "stat": "Top 1",
+      "stat_label": "Cacao & Agricultural Producer in the Philippines",
+      "image": "/images/landmarks/philippine-eagle.jpg"
+    },
+    {
+      "id": "lifestyle-balance",
+      "badge": "Work-Life Balance",
+      "title": "From Sea to Mountain in Under an Hour",
+      "summary": "Modern metropolitan conveniences adjacent to pristine nature.",
+      "description": "Davao City offers Southern Mindanao's top tertiary hospitals, leading universities (Ateneo de Davao, University of the Philippines Mindanao, University of Mindanao), and expanding IT-BPO hubs—all without sacrificing access to nature. Within 45 minutes, Dabawenyos can retreat to the cool mountain pine breezes of Marilog or sail across to the white-sand coral reefs of Samal Island.",
+      "stat": "45 Mins",
+      "stat_label": "From Downtown High-Rise to Mountain or Beach",
+      "image": "/images/landmarks/davao-skyline.jpg"
+    }
+  ],
+  "citizen_quotes": [
+    {
+      "quote": "In Davao, discipline isn't about fear; it's about mutual respect. You can walk home late from work or university knowing that the community and our emergency 911 responders are looking out for you.",
+      "author": "Local Citizen & Tech Worker",
+      "location": "Poblacion District"
+    },
+    {
+      "quote": "When you open the tap here, you drink clean mountain water. When you buy groceries, the fruits and vegetables came from local farms this morning. That is what true wealth and quality of life look like.",
+      "author": "Public Health Advocate",
+      "location": "Calinan District"
+    },
+    {
+      "quote": "Davao is proof that Christians, Muslims, and Lumads can thrive side by side in brotherhood, sharing the same streets and celebrating each other's culture.",
+      "author": "Community Elder",
+      "location": "Toril District"
+    }
+  ]
+}
