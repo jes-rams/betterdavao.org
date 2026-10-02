@@ -94,9 +94,10 @@ export default function Home() {
             {/* Livability Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {livabilityData.livability_pillars.map((pillar) => (
-                <div
+                <Link
                   key={pillar.id}
-                  className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition group flex flex-col"
+                  href={`/life-is-here/${pillar.id}`}
+                  className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl hover:border-blue-400 transition-all duration-300 group flex flex-col"
                 >
                   <div className="relative h-48 w-full overflow-hidden bg-slate-100">
                     <img
@@ -108,6 +109,9 @@ export default function Home() {
                     <div className="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-xs text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
                       {pillar.badge}
                     </div>
+                    <div className="absolute bottom-3 right-3 bg-blue-900/90 backdrop-blur-xs text-amber-300 text-xs font-black px-2.5 py-1 rounded-lg">
+                      {pillar.stat}
+                    </div>
                   </div>
 
                   <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
@@ -115,17 +119,19 @@ export default function Home() {
                       <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
                         {pillar.title}
                       </h3>
-                      <p className="text-slate-600 text-sm leading-relaxed">
+                      <p className="text-slate-600 text-sm leading-relaxed line-clamp-3">
                         {pillar.description}
                       </p>
                     </div>
 
                     <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                       <span className="text-xs text-slate-500 font-medium">{pillar.stat_label}</span>
-                      <span className="text-sm font-black text-blue-700">{pillar.stat}</span>
+                      <span className="text-sm font-bold text-blue-700 group-hover:underline inline-flex items-center gap-1">
+                        Read Full Details &rarr;
+                      </span>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 
