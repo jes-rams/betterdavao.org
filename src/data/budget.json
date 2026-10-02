@@ -5,7 +5,26 @@
       "year": 2024,
       "amount_php": 12735450908,
       "amount_formatted": "₱12.7 billion",
-      "notes": "Represented a 7.51% increase from 2023."
+      "notes": "Represented a 7.62% increase from 2023.",
+      "breakdown": {
+        "general_fund": {
+          "amount_formatted": "₱10.12 billion",
+          "percentage": "79.82%",
+          "description": "Covers personal services, maintenance, and operating expenses."
+        },
+        "annual_development_fund": {
+          "amount_formatted": "₱2.4 billion",
+          "percentage": "19.04%"
+        }
+      },
+      "key_allocations": {
+        "city_mayors_office": "₱4 billion",
+        "city_engineers_office": "₱2 billion",
+        "city_social_welfare_and_development": "₱845 million",
+        "city_disaster_risk_reduction": "₱826 million",
+        "city_health_office": "₱812 million",
+        "infrastructure_projects": "₱1.6 billion (from ADF)"
+      }
     },
     {
       "year": 2023,

@@ -12,10 +12,50 @@
     },
     "councilors": [
       {
-        "district": "General",
-        "description": "The Davao City Council consists of 24 members (8 per congressional district), plus ex-officio members."
+        "district": "First District",
+        "members": [
+          "Rodrigo \"Rigo\" S. Duterte II",
+          "Melchor Quitain Jr.",
+          "Luna Acosta",
+          "Cookie Bonguyan",
+          "Bonz Militar",
+          "Ragde Ibuyan",
+          "Temujin \"Tek\" Ocampo",
+          "Pamela \"Pameng\" Librado"
+        ]
+      },
+      {
+        "district": "Second District",
+        "members": [
+          "Alberto Ungab",
+          "Enzo Villafuerte",
+          "Sweet Advincula",
+          "Petite Principe",
+          "Rachel Zozobrado",
+          "Potpot Villafuerte",
+          "Jopet Baluran",
+          "Myrna Dalodo-Ortiz"
+        ]
+      },
+      {
+        "district": "Third District",
+        "members": [
+          "Alberto Ungab",
+          "Other third district officials based on recent electoral cycle"
+        ],
+        "notes": "Council includes Alberto Ungab and others associated with the recent electoral cycle."
       }
-    ]
+    ],
+    "key_department_heads": {
+      "city_administrator": {
+        "name": "Atty. Francis Mark H. Layog",
+        "office": "Office of the City Administrator"
+      },
+      "city_health_officer": {
+        "office": "City Health Office",
+        "notes": "Responsible for medical, immunization, and sanitation services."
+      }
+    }
   },
-  "source": "Official City Government of Davao Directory"
+  "source": "Official City Government of Davao Directory / May 2025 Local Elections"
 }

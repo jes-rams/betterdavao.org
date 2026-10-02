@@ -1,5 +1,19 @@
 {
   "city": "Davao City",
+  "landmark_ordinances": [
+    {
+      "title": "Comprehensive Anti-Smoking Ordinance",
+      "description": "Prohibits smoking, e-cigarettes, and shisha in all public places. Fines range from ₱3,000 to ₱5,000."
+    },
+    {
+      "title": "Liquor Ban Ordinance",
+      "description": "Prohibits the sale of liquor and alcoholic beverages from 1:00 AM to 8:00 AM daily. Consumption in public places is banned 24/7."
+    },
+    {
+      "title": "Speed Limit Ordinance",
+      "description": "Strict speed limits (80 kph, 60 kph, 40 kph, 30 kph, 20 kph) based on road type to improve safety. Enforced by CTTMO with fines up to ₱5,000."
+    }
+  ],
   "recent_ordinances_and_resolutions": [
     {
       "ordinance_no": "0317-26",

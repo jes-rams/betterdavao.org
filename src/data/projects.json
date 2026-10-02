@@ -11,12 +11,20 @@
         "description": "3.98-kilometer, four-lane extradosed bridge project linking Davao City and Samal."
       },
       {
-        "name": "Davao Public Transport Modernization Project (DPTMP)",
-        "description": "Establishing a modern bus-based public transport system."
+        "name": "Davao Public Transport Modernization Project (DPTMP) / HPBS",
+        "description": "Establishing a modern bus-based public transport system with a 672-kilometer network and 1,100 buses (electric and Euro-V diesel). Partial operations expected in 2026."
       },
       {
         "name": "Davao International Airport Modernization",
         "description": "Upgrades to the airport including passenger terminal building expansion."
+      },
+      {
+        "name": "Davao City Coastal Road",
+        "description": "17.8-kilometer bypass road designed to decongest city proper, act as storm-surge barrier, and serve as public promenade. Segments A, B, C are operational/near completion."
+      },
+      {
+        "name": "Waste-to-Energy (WTE) Plant",
+        "description": "Proposed facility in Tugbok District designed to process 600 tons of solid waste daily, generating 11 MW of electricity. Estimated cost ₱5B-₱7B."
       }
     ],
     "completed": [

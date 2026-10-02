@@ -13,5 +13,22 @@
       "facebook": "https://www.facebook.com/davaocitygov"
     },
     "website": "https://davaocity.gov.ph"
+  },
+  "departments": {
+    "city_health_office": {
+      "location": "Magallanes Street, Davao City",
+      "contact_numbers": ["0926-686-1531", "0999-938-0540"],
+      "email": ["cho@davaocity.gov.ph"]
+    },
+    "city_disaster_risk_reduction_management_office": {
+      "location": "Central 911 Compound, Daang Patnubay, Sandawa, Matina, Davao City",
+      "contact_numbers": ["(082) 295-2387", "(082) 224-2535", "(082) 285-8984"],
+      "email": ["cdrrmo@davaocity.gov.ph", "drrmodvocity@ymail.com"]
+    },
+    "city_social_welfare_development_office": {
+      "location": "A. Pichon St., Davao City",
+      "contact_numbers": ["(082) 227-1617", "(082) 295-3500", "(082) 225-0417"],
+      "email": ["cswdo@davaocity.gov.ph"]
+    }
   }
 }
