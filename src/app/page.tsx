@@ -161,23 +161,41 @@ export default function Home() {
 
           {/* 3. 12 Priority Development Pillars */}
           <section>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-extrabold text-slate-900 mb-4">{agendaData.title}</h2>
-              <p className="text-slate-600 max-w-2xl mx-auto">{agendaData.description}</p>
+            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+              <div>
+                <h2 className="text-3xl font-extrabold text-slate-900 mb-2">{agendaData.title}</h2>
+                <p className="text-slate-600 max-w-2xl">{agendaData.description}</p>
+              </div>
+              <Link href="/agenda" className="text-blue-700 font-bold hover:underline whitespace-nowrap text-sm inline-flex items-center gap-1">
+                View All 12 Full Blueprints &rarr;
+              </Link>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {pillars.map((pillar) => (
-                <div key={pillar.number} className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-300 transition-colors">
+                <Link
+                  key={pillar.number}
+                  href={`/agenda/${pillar.slug}`}
+                  className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md transition-all group flex flex-col justify-between"
+                >
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-700 flex items-center justify-center font-black text-lg shrink-0">
+                    <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-700 group-hover:bg-blue-600 group-hover:text-white flex items-center justify-center font-black text-lg shrink-0 transition-colors">
                       {pillar.number}
                     </div>
                     <div>
-                      <h3 className="font-bold text-slate-900 text-sm mb-1 leading-tight">{pillar.title}</h3>
-                      <p className="text-slate-500 text-xs leading-relaxed line-clamp-3" title={pillar.summary}>{pillar.summary}</p>
+                      <h3 className="font-bold text-slate-900 text-sm mb-1 leading-tight group-hover:text-blue-700 transition-colors">
+                        {pillar.title}
+                      </h3>
+                      <p className="text-slate-500 text-xs leading-relaxed line-clamp-3" title={pillar.summary}>
+                        {pillar.summary}
+                      </p>
                     </div>
                   </div>
-                </div>
+                  <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-end">
+                    <span className="text-xs font-bold text-blue-600 group-hover:underline inline-flex items-center gap-0.5">
+                      Inspect &rarr;
+                    </span>
+                  </div>
+                </Link>
               ))}
             </div>
           </section>

@@ -1,302 +1,302 @@
 {
   "slogan": "Davao: Life Is Here",
-  "subtitle": "Discover Why Millions of Dabawenyos and Newcomers Choose to Live, Work, and Raise Families in Davao City",
-  "introduction": "The official city motto, 'Davao: Life Is Here,' is more than a tourism slogan—it is a lived civic reality. From strict community discipline and rapid emergency response to clean mountain water and rich cultural harmony, Davao City offers a balanced, secure lifestyle rarely matched in Southeast Asian metropolises.",
+  "subtitle": "Why Millions of Dabawenyos and Newcomers Choose to Live, Work, and Raise Families in Davao City",
+  "introduction": "Ask anyone living in Davao why they stay, and you get answers you rarely hear in other big cities. People talk about walking home late at night without constantly looking over their shoulder, drinking clean water straight from the kitchen tap, and knowing an ambulance will show up for free if an emergency strikes. 'Davao: Life Is Here' isn't a tourism slogan invented in a boardroom—it's how daily life actually feels when local government focuses on basic safety, public health, and livability.",
   "livability_pillars": [
     {
       "id": "peace-and-discipline",
       "badge": "Public Safety",
       "title": "Discipline, Order, and Peace of Mind",
-      "summary": "Strict local ordinances protect citizen well-being day and night.",
-      "description": "Davao City is celebrated across the nation for its uncompromising civic discipline. With landmark ordinances such as the 100% Smoke-Free City policy, mandatory speed limits (30-60 km/h) that drastically reduced vehicular crashes, a 1:00 AM liquor curfew, and a total ban on firecrackers, residential neighborhoods stay peaceful and quiet. Dabawenyos—students, night-shift workers, and families—can walk public streets with confidence and peace of mind.",
+      "summary": "Clear, enforced rules that keep neighborhoods quiet and streets safe day and night.",
+      "description": "Davao's peace and quiet didn't happen by accident. It is built on specific local laws that people actually follow: no smoking in public places, strictly enforced 30 to 60 km/h speed limits, a 1:00 AM curfew on selling alcohol, and a complete ban on firecrackers. Families, night-shift workers, and students can walk public streets with genuine peace of mind.",
       "stat": "20+ Years",
-      "stat_label": "Zero-Firecracker Casualties & Clean Air Ordinances",
+      "stat_label": "Zero Firecracker Injuries & Clean Air Rules",
       "image": "/images/landmarks/davao-city-hall.jpg",
-      "hero_headline": "How Uncompromising Civic Discipline Created One of Southeast Asia's Safest Urban Sanctuaries",
-      "overview": "For over two decades, Davao City has pioneered a culture of municipal discipline where the rule of law directly translates to citizen safety. Unlike conventional urban centers plagued by noise, pollution, and night-time insecurity, Davao established clear legal boundaries that put people first. Whether you are a student returning home late from evening classes or a BPO night-shift professional traversing downtown at 3:00 AM, the city maintains an active, visible shield of police presence, community watchmen, and well-lit thoroughfares.",
+      "hero_headline": "How Plain Old Community Discipline Turned Davao Into One of the Safest Cities Around",
+      "overview": "If you walk down San Pedro Street or through the Roxas Night Market late on a Friday evening, the first thing you notice is how relaxed people look. There is an order to everyday life in Davao that catches newcomers off guard. Drivers actually slow down for pedestrians, public jeepneys are strictly smoke-free, and you don't hear deafening loud pipes or drunken bar fights spilling into neighborhood streets at 2:00 AM. Over twenty years ago, the city made a collective choice: individual convenience takes a backseat to everyone's right to safe, clean, and peaceful neighborhoods.",
       "ordinances_and_rules": [
         {
-          "name": "Comprehensive Anti-Smoking Ordinance (Ordinance No. 0367-12)",
-          "detail": "Prohibits smoking and vaping in all public places, government buildings, dining establishments, and public utility vehicles. Designated smoking areas must comply with strict physical distance requirements away from pedestrian flow."
+          "name": "Smoke-Free City Ordinance (Ordinance No. 0367-12)",
+          "detail": "You cannot light a cigarette or use a vape in public parks, government buildings, restaurants, or jeepneys. If people want to smoke, they must do it at home or inside specifically permitted, out-of-the-way designated smoking areas."
         },
         {
-          "name": "Mandatory Speed Limit Ordinance (Ordinance No. 0270-23)",
-          "detail": "Restricts vehicular speeds to 30 km/h in downtown and school zones, 40 km/h on urban arteries, and 60 km/h on major bypass highways. Since implementation, traffic fatalities and fatal pedestrian accidents decreased by over 60%."
+          "name": "Mandatory Speed Limit (Ordinance No. 0270-23)",
+          "detail": "Vehicles are held to 30 km/h in downtown and school areas, 40 km/h on urban roads, and 60 km/h on highway stretches. Traffic police use radar guns day and night, which cut fatal pedestrian and motorcycle crashes by more than half."
         },
         {
-          "name": "Total Firecracker & Pyrotechnic Ban (Ordinance No. 060-02)",
-          "detail": "Completely bans the manufacture, sale, distribution, possession, and use of firecrackers and pyrotechnic devices within city limits. Davao has recorded zero firecracker-related blast amputations and zero firecracker-sparked house fires every New Year since 2002."
+          "name": "Total Firecracker Ban (Ordinance No. 060-02)",
+          "detail": "Selling, buying, or lighting firecrackers is completely outlawed within city limits. Since 2002, Davao hospitals haven't treated a single child with blown-off fingers on New Year's Eve, and stray-bullet tragedies are nonexistent. Dabawenyos celebrate with horn pipes (torotot) and street parties instead."
         },
         {
-          "name": "1:00 AM – 6:00 AM Public Liquor Ban (Ordinance No. 004-2013)",
-          "detail": "Restricts the serving and retail sale of alcoholic beverages after 1:00 AM in commercial establishments and public spaces. This drastically curbed alcohol-fueled street brawls and night-time noise in residential barangays."
+          "name": "1:00 AM to 6:00 AM Liquor Curfew (Ordinance No. 004-2013)",
+          "detail": "Bars, convenience stores, and restaurants stop serving alcohol at 1:00 AM sharp. People can still enjoy an evening out with friends, but the late-night cutoff keeps neighborhood streets calm and prevents alcohol-fueled violence."
         }
       ],
       "measurable_impacts": [
-        { "metric": "0 Casualties", "label": "Every Single New Year", "detail": "Zero blast injuries and zero stray-bullet deaths recorded annually under the firecracker ban." },
-        { "metric": "-60%", "label": "Traffic Fatalities", "detail": "Immediate decline in highway crash deaths following automated speed camera deployments." },
-        { "metric": "100%", "label": "Smoke-Free Transit", "detail": "All public jeepneys, taxis, and public terminals strictly enforce smoke-free air." }
+        { "metric": "0 Injured", "label": "Every New Year's Eve", "detail": "Two straight decades with zero blast amputations and zero firecracker-sparked house fires." },
+        { "metric": "-60%", "label": "Fewer Road Fatalities", "detail": "Strict speed radar enforcement made city streets substantially safer for walking and biking." },
+        { "metric": "100%", "label": "Smoke-Free Commutes", "detail": "Every public jeepney, taxi, and bus terminal stays smoke-free for passengers." }
       ],
       "citizen_tips": [
-        "Always observe local speed limits: 30 km/h in downtown Davao, 40 km/h on secondary roads, and 60 km/h on highways. Mobile speed radar guns operate around the clock.",
-        "Smoke or vape only in private residences or certified, permitted Designated Smoking Areas (DSAs).",
-        "During New Year celebrations, join fellow Dabawenyos with party horns (torotot) and festive street music instead of firecrackers."
+        "Pay close attention to speed limit signs: 30 km/h downtown, 40 km/h along main roads like JP Laurel and McArthur Highway, and 60 km/h on open bypass roads. Radar checkpoints are active 24/7.",
+        "Don't smoke on sidewalks or outside malls. Look for official permitted Designated Smoking Areas (DSAs), or simply wait until you get home.",
+        "On New Year's Eve, grab party horns (torotot) or join the community music countdowns—leave the firecrackers completely off your shopping list."
       ]
     },
     {
       "id": "central-911",
       "badge": "Emergency Readiness",
       "title": "Central 911: Free, Instant Emergency Response",
-      "summary": "One of Asia's premier integrated medical, fire, and police response networks.",
-      "description": "Modeled after world-class emergency dispatchers, Davao's Central 911 coordinates paramedics, firefighters, police, urban search and rescue, and canine units through a single toll-free number. Every Dabawenyo, regardless of social background, receives rapid emergency medical assistance and hospital transport at absolutely zero cost to the caller.",
+      "summary": "Call one number anytime for an ambulance, firefighters, or police—without paying a single cent.",
+      "description": "When someone collapses or a fire breaks out in Davao, you don't worry about finding cash or wondering who to call. You dial 911. A trained dispatcher connects you within seconds, talks you through first aid, and sends a modern ambulance with certified paramedics. Best of all: it is 100% paid for by local taxes, with zero charge for emergency medical transit.",
       "stat": "24/7/365",
-      "stat_label": "Zero-Cost Emergency Medical & Disaster Dispatch",
+      "stat_label": "Free Emergency Medical & Fire Dispatch",
       "image": "/images/landmarks/davao-coastal-road.jpg",
-      "hero_headline": "Southeast Asia's Most Comprehensive, Fully Free 24/7 Emergency Dispatch Network",
-      "overview": "Launched in 2002, Davao City's Central 911 was the first unified emergency dispatch system in Asia outside North America. Combining medical response, fire suppression, police dispatch, and disaster search and rescue under one command center, Central 911 ensures that every citizen in distress gets immediate, professional intervention. Most importantly, Central 911 operates on an uncompromising civic principle: emergency medical transport, paramedic triage, and life support are completely free of charge to any resident or visitor.",
+      "hero_headline": "An Emergency Service That Treats Every Resident Like Family—No Wallet Required",
+      "overview": "Set up back in 2002, Davao City's Central 911 was the very first integrated 911 emergency system anywhere in Asia outside the US and Canada. Instead of forcing citizens to remember separate phone numbers for the police station, the fire brigade, and private hospital ambulances, Central 911 brought them all under one roof on Quimpo Boulevard. The guiding philosophy is simple and humane: when a person is fighting for their life, money should never be a factor. Rich or poor, the ambulance arrives with advanced life support, and you are never handed a bill.",
       "ordinances_and_rules": [
         {
-          "name": "Integrated Computer-Aided Dispatch (CAD)",
-          "detail": "Central 911's headquarters on Quimpo Boulevard connects call-takers directly with GIS mapping, triangulating emergency locations and routing the closest response vehicle within seconds."
+          "name": "Single Computerized Dispatch Center",
+          "detail": "Call-takers use digital mapping to find your exact location, determine what kind of help is needed, and alert the closest station in seconds."
         },
         {
-          "name": "Emergency Medical Services (EMS) Fleet",
-          "detail": "Equipped with advanced life support ambulances manned by certified emergency medical technicians (EMTs) capable of in-transit cardiac defibrillation, airway management, and trauma care."
+          "name": "Advanced Life Support Ambulance Fleet",
+          "detail": "Ambulances carry certified Emergency Medical Technicians (EMTs), oxygen, defibrillators, and trauma supplies to stabilize patients en route to the hospital."
         },
         {
-          "name": "Urban Search and Rescue (USAR) & K9 Corps",
-          "detail": "Specialized teams trained for earthquake structural collapses, flash floods, swift water rescue along the Davao River, and canine victim detection."
+          "name": "Search, Rescue, and K9 Units",
+          "detail": "Specialized teams ready for mountain landslides, river rescue during heavy rains, building collapses, and trained search dogs for finding missing people."
         },
         {
-          "name": "Strict Penalties for Prank Calls",
-          "detail": "Local ordinances impose heavy fines and legal prosecution against fraudulent emergency calls, keeping emergency phone lines clear for real life-or-death situations."
+          "name": "Zero Tolerance for Prank Calls",
+          "detail": "City rules penalize prank callers with heavy fines and jail time, keeping lines open so real life-or-death emergencies never get a busy signal."
         }
       ],
       "measurable_impacts": [
-        { "metric": "₱0.00", "label": "Citizen Fee", "detail": "Paramedic care, trauma stabilization, and ambulance hospital transit are 100% free." },
-        { "metric": "3-7 Mins", "label": "Urban Response Time", "detail": "Average dispatch and scene arrival time within central urban districts." },
-        { "metric": "Sub-Stations", "label": "Strategically Placed", "detail": "Sub-stations located in Cabantian, Toril, Calinan, Panacan, and Marilog ensure citywide reach." }
+        { "metric": "₱0.00", "label": "Cost to Citizens", "detail": "Ambulance rides, emergency oxygen, and paramedic stabilization cost you nothing." },
+        { "metric": "Under 8 Mins", "label": "City Response Time", "detail": "Average dispatch and arrival time within primary urban barangays." },
+        { "metric": "Citywide", "label": "Network of Substations", "detail": "Stations in Toril, Calinan, Bunawan, Panacan, and Marilog ensure help reaches rural areas." }
       ],
       "citizen_tips": [
-        "In any medical, fire, or police emergency, dial 911 from any mobile phone or landline. The call connects immediately without any load or prepaid credits required.",
-        "State your location clearly with notable landmarks (street corner, school, subdivision gate) to expedite the GPS dispatch.",
-        "Keep the line open: The 911 dispatcher will guide you through first-aid and CPR instructions while the ambulance is en route."
+        "In any real emergency, dial 911 from any mobile phone or landline. The call connects even if you have zero prepaid load.",
+        "Give your exact location clearly: name the street, nearby landmark, sari-sari store, or school to help the driver find you fast.",
+        "Stay on the line. The dispatcher will stay with you and give step-by-step instructions on CPR, wound pressure, or recovery positions while help is on the way."
       ]
     },
     {
       "id": "climate-resilience",
       "badge": "Natural Shield",
       "title": "Typhoon-Resilient Geography",
-      "summary": "Outside the typical typhoon corridor, shielded by mountain ranges.",
-      "description": "Geographically nestled along the Davao Gulf and sheltered by Mount Apo and the Bukidnon mountain ranges, Davao City sits outside the typhoon belt that frequently buffets northern and central Philippines. This natural geographic advantage gives residents predictable weather, food security, and a climate resilient environment for long-term investments and family life.",
+      "summary": "Naturally shielded from severe Pacific typhoons by Mount Apo and regional mountains.",
+      "description": "Davao City sits comfortably outside the typical Philippine typhoon belt. Sheltered by Mount Apo—the highest peak in the country at 2,954 meters—and surrounding mountain ranges, the city enjoys stable, predictable weather. While supertyphoons frequently hit northern regions, Davao stays largely calm and secure year-round.",
       "stat": "2,954 m",
-      "stat_label": "Mount Apo Natural Mountain Protective Shield",
+      "stat_label": "Mount Apo Natural Shield",
       "image": "/images/landmarks/mount-apo.jpg",
-      "hero_headline": "Sheltered by Natural Mountain Barriers Beyond the Destructive Path of Pacific Typhoons",
-      "overview": "Geography is Davao City's greatest natural benefactor. Positioned at 7 degrees North latitude in Southern Mindanao, the city is situated south of the typical Pacific typhoon path where tropical cyclones develop and veer northward toward Luzon, the Visayas, and Taiwan. Sheltered by Mount Apo (the highest peak in the Philippines at 2,954 meters) to the west and towering cordilleras to the north, Davao experiences a gentle, predictable microclimate that shields lives, homes, and critical civic infrastructure.",
+      "hero_headline": "Why Nature Positioned Davao in One of the Safest Weather Spots in the Philippines",
+      "overview": "Geography is easily one of Davao's biggest gifts. Sitting at 7 degrees North latitude down in Southern Mindanao, the city is well south of the dangerous Pacific typhoon expressway that wrecks parts of the Visayas and Luzon every rainy season. On top of that, Mount Apo and the high mountain ranges of Bukidnon form a natural windbreaker that dampens severe weather before it ever touches the city. For families, that means less worry about blown-off roofs. For business owners, it means factories, farms, and shipping run smoothly 12 months a year.",
       "ordinances_and_rules": [
         {
-          "name": "Typhoon Corridor Buffer",
-          "detail": "Historical weather tracking by PAGASA confirms that fewer than 5% of typhoons entering the Philippine Area of Responsibility (PAR) make direct landfall across Southern Mindanao."
+          "name": "Outside the Typhoon Alley",
+          "detail": "Historical weather records from PAGASA show that over 95% of tropical cyclones entering Philippine waters never hit Southern Mindanao directly."
         },
         {
-          "name": "Year-Round Agricultural Stability",
-          "detail": "Because catastrophic windstorms are virtually absent, local farms in Calinan, Baguio, and Marilog maintain continuous fruit, vegetable, and cacao harvest cycles without seasonal storm destruction."
+          "name": "Year-Round Growing Seasons",
+          "detail": "Local farmers in Calinan, Baguio, and Marilog harvest fruit, coffee, and vegetables year-round without seeing entire crops wiped out by category 5 winds."
         },
         {
-          "name": "Davao River Early Warning & Telemetry System",
-          "detail": "Automated rain gauges and ultrasonic water level sensors monitor the Tamugan, Suawan, and Davao rivers to alert downstream barangays hours before localized upstream rainfall reaches residential banks."
+          "name": "River Sensors & Early Flood Warnings",
+          "detail": "Automated water-level gauges along the Davao and Talomo rivers sound alarms hours ahead of time if upland rain in the mountains starts raising water levels."
         },
         {
-          "name": "Davao Coastal Highway Sea Wall Defense",
-          "detail": "The newly completed coastal bypass serves dual purposes: traffic decongestion and a fortified coastal sea wall guarding against storm surges and tidal fluctuations along the Davao Gulf."
+          "name": "Coastal Sea Wall Defense",
+          "detail": "The newly built Davao Coastal Road doubles as an engineered sea wall, protecting shoreline communities against high tides and storm surges along the gulf."
         }
       ],
       "measurable_impacts": [
-        { "metric": "2,954 m", "label": "Peak Elevation", "detail": "Mount Apo acts as a massive thermal and wind buffer against regional weather fronts." },
-        { "metric": "95%+", "label": "Typhoon Shield", "detail": "Over 95% of tropical cyclones bypass Davao entirely, ensuring year-round infrastructure safety." },
-        { "metric": "Stable", "label": "Maritime Logistics", "detail": "The sheltered waters of the Davao Gulf allow year-round port shipping without seasonal storm closures." }
+        { "metric": "2,954 m", "label": "Peak Elevation", "detail": "Mount Apo stands as a colossal physical barrier against harsh regional storm fronts." },
+        { "metric": "95%+", "label": "Typhoon Protection", "detail": "Nearly all major cyclones veer far north, sparing Davao from catastrophic winds." },
+        { "metric": "All Year", "label": "Calm Shipping", "detail": "The sheltered waters of Davao Gulf allow cargo ships and fishing boats to operate without seasonal shutdowns." }
       ],
       "citizen_tips": [
-        "While strong typhoons rarely hit Davao, localized afternoon thunderstorms (ITCZ) occur; keep drainage clean around your home to prevent localized flash ponding.",
-        "Sign up for Davao CDRRMO mobile disaster alerts to stay informed during monsoon troughs.",
-        "Visit the Mount Apo foothills in Kapatagan or Marilog to experience the cool, temperate microclimates just an hour away from the coast."
+        "While strong typhoons are rare, afternoon thunderstorms can bring sudden heavy downpours. Keep street gutters clear around your home to prevent localized water puddles.",
+        "Sign up for local CDRRMO weather text alerts during the monsoon months so you know what is happening in the upland river catchments.",
+        "Take a weekend trip up to Marilog or the foothills of Mount Apo in Kapatagan to experience crisp mountain air that feels like Baguio, just an hour from town."
       ]
     },
     {
       "id": "clean-water",
       "badge": "Health & Utilities",
       "title": "World-Class, Potable Tap Water",
-      "summary": "Directly drinkable tap water sourced from pristine natural aquifers.",
-      "description": "Davao City's tap water—managed by the Davao City Water District (DCWD) and complemented by the bulk water supply from the Tamugan River—is recognized among the purest and most potable municipal water sources worldwide. Sourced from deep volcanic aquifers filtered through pristine rainforests, residents enjoy crisp, safe drinking water straight from the tap.",
+      "summary": "Crisp, clean drinking water straight from the faucet without needing bottled refills.",
+      "description": "One of the best daily perks of living in Davao is something newcomers always find unbelievable: you can turn on the tap and drink the water directly. Drawn from natural underground aquifers beneath Mount Apo and supplemented by the clean Tamugan River bulk water facility, Davao's tap water is regularly tested and rated among the purest in the world.",
       "stat": "100%",
-      "stat_label": "Laboratory-Tested Potable Tap Water",
+      "stat_label": "Tested Safe to Drink Straight from the Tap",
       "image": "/images/landmarks/peoples-park-durian-dome.jpg",
-      "hero_headline": "Directly Drinkable Mountain Water Flowing Straight from Every Household Faucet",
-      "overview": "One of the most remarkable everyday luxuries in Davao City is something many taking for granted: you can turn on the tap and drink clean, refreshing water directly without boiling or purchasing commercial bottled refills. Sourced from pristine volcanic aquifers beneath Mount Apo and enriched by the sustainable Tamugan River surface water supply, Davao's municipal water has repeatedly tested among the cleanest and safest in international municipal water standards.",
+      "hero_headline": "Clean Mountain Water That Flows Right into Your Glass, Saving Every Family Money",
+      "overview": "When people move to Davao from Manila or overseas, one of their first culture shocks is watching locals fill a water pitcher straight from the kitchen sink. In most cities, buying big 5-gallon blue jugs from water refilling stations is a compulsory monthly expense. In Davao, our water is naturally filtered through layers of volcanic sand and rock over decades, coming out of deep wells crisp, refreshing, and rich in natural minerals. The city strictly protects the mountain watersheds so generations to come will never have to buy bottled water to survive.",
       "ordinances_and_rules": [
         {
-          "name": "Panigan-Tamugan Watershed Protection Ordinance",
-          "detail": "Strict municipal regulations legally designate the Panigan-Tamugan river basin as a prime protected watershed, prohibiting aerial agricultural spraying, heavy chemical fertilizers, and commercial developments within the buffer zone."
+          "name": "Panigan-Tamugan Watershed Protection Law",
+          "detail": "Strict local environmental rules completely ban aerial chemical spraying, heavy commercial farming, and harmful industries anywhere near the mountain river recharge basins."
         },
         {
-          "name": "Dumoy & Talomo Deep-Well Production Aquifers",
-          "detail": "Natural volcanic sand and basalt rock formations naturally filter rainwater over decades, imbuing Davao's groundwater with essential minerals while maintaining near-zero turbidity and bacterial purity."
+          "name": "Natural Volcanic Aquifers in Dumoy & Talomo",
+          "detail": "Underground aquifers fed by rain from Mount Apo naturally filter water through deep subterranean basalt rock, keeping it bacteria-free and clear."
         },
         {
-          "name": "Davao City Bulk Water Supply Project (300 MLD)",
-          "detail": "A state-of-the-art river intake and ultra-modern filtration facility tapping the Tamugan River to preserve deep-well aquifers from saltwater intrusion, guaranteeing clean water for future generations."
+          "name": "300 Million Liter Tamugan Bulk Water Facility",
+          "detail": "A modern surface-water filtration facility tapping the Tamugan River takes the load off our deep wells, preventing groundwater depletion and keeping tap water abundant."
         },
         {
-          "name": "Strict Daily Microbiological & Chemical Testing",
-          "detail": "The Davao City Water District (DCWD) conducts continuous sampling across over 100 strategic monitoring nodes daily, adhering strictly to Philippine National Standards for Drinking Water (PNSDW)."
+          "name": "Daily Quality Sampling",
+          "detail": "The Davao City Water District (DCWD) tests water samples across more than 100 neighborhood locations every single day to ensure strict compliance with drinking standards."
         }
       ],
       "measurable_impacts": [
-        { "metric": "₱0 Cost", "label": "On Bottled Water", "detail": "Households save thousands of pesos every year by drinking directly from household taps." },
-        { "metric": "300 MLD", "label": "Bulk Water Capacity", "detail": "State-of-the-art river surface water facility supplies 300 million liters of potable water daily." },
-        { "metric": "100% Compliant", "label": "PNSDW Standards", "detail": "Exceeds all microbiological, chemical, and physical safety standards of national health agencies." }
+        { "metric": "₱0 Expense", "label": "On Commercial Refills", "detail": "Households save hundreds of pesos every month by drinking directly from household taps." },
+        { "metric": "300 MLD", "label": "Fresh Bulk Capacity", "detail": "Supplies clean, treated surface water to keep up with city growth without draining aquifers." },
+        { "metric": "100% Safe", "label": "National Standards", "detail": "Consistently passes every single chemical and microbiological drinking safety standard." }
       ],
       "citizen_tips": [
-        "You can safely drink water straight from the faucet in any standard DCWD-serviced home, university, or restaurant in Davao City.",
-        "Ensure your household internal plumbing (pipes and storage tanks) is cleaned and well-maintained to preserve water quality right up to your glass.",
-        "Join civic tree-planting initiatives in the Tamugan-Panigan watershed to keep our mountain aquifers pristine for decades to come."
+        "Go ahead and drink straight from the tap in any regular DCWD-connected home, restaurant, or office in Davao City—it is genuinely safe and delicious.",
+        "Keep your own household pipes and rooftop water tanks clean so the water stays pure all the way to your cup.",
+        "Help protect our water supply by joining community tree-planting days in the Panigan-Tamugan watershed area."
       ]
     },
     {
       "id": "cultural-harmony",
       "badge": "Unity in Diversity",
       "title": "Harmonious Home of 11 Ethnolinguistic Tribes",
-      "summary": "A tapestry of Lumad indigenous peoples and Moro nations living in mutual respect.",
-      "description": "Davao City is proud of its unique cultural identity, built upon the harmonious coexistence of 11 recognized ethnolinguistic tribes—5 Lumad indigenous communities (Ata, Klata, Matigsalug, Ovu-Manuvu, and Tagabawa) and 6 Moro nations (Iranun, Kagan, Maguindanaon, Maranao, Sama, and Tausug). The city actively preserves tribal governance with dedicated Deputy Mayors and celebrates their heritage every August during the world-renowned Kadayawan Festival.",
+      "summary": "Where Christians, Muslims, and indigenous Lumads share the same city in mutual respect.",
+      "description": "Davao is home to 11 recognized indigenous tribes—five Lumad groups and six Moro nations. Rather than treating indigenous cultures as historical relics, City Hall appoints an official Deputy Mayor chosen by each tribe to represent their people. Christians, Muslims, and Lumads live, work, and celebrate together in genuine brotherhood.",
       "stat": "11 Tribes",
-      "stat_label": "Represented in Local Government & Cultural Affairs",
+      "stat_label": "Formally Represented Inside City Hall",
       "image": "/images/landmarks/kadayawan-festival.jpg",
-      "hero_headline": "Where Christians, Muslims, and Indigenous Lumad Peoples Live as Brothers in Mutual Respect",
-      "overview": "While cultural and religious differences have historically created tension in other parts of the world, Davao City stands as a beacon of unity in diversity. Long before Spanish or American settlers arrived, indigenous Lumad and Moro nations nurtured these fertile lands. Today, Davao formally honors this rich heritage by institutionalizing representation for its 11 recognized ethnolinguistic tribes right inside City Hall, ensuring that minority rights, ancestral domains, and sacred customs are actively celebrated and protected.",
+      "hero_headline": "Where Diversity Is Lived, Not Just Talked About—Brothers Sharing the Same Streets",
+      "overview": "In a world where ethnic and religious divides often spark friction, Davao City chose a very different path. Long before the first colonial ships docked on Mindanao's shores, Lumad tribes and Moro communities called this land home. Today, Davao doesn't just tolerate its cultural diversity—it honors it as the city's foundational strength. Walk down the street and you will see mosques, churches, and indigenous cultural spaces coexisting peacefully. When August arrives, the entire city joins hands for Kadayawan, a festival not tied to any single religion, but dedicated to thanking nature and celebrating the heritage of all 11 tribes.",
       "ordinances_and_rules": [
         {
-          "name": "The 11 Recognized Ethnolinguistic Tribes",
-          "detail": "5 Indigenous Lumad Tribes: Ata, Klata, Matigsalug, Ovu-Manuvu, and Tagabawa. 6 Moro Nations: Iranun, Kagan, Maguindanaon, Maranao, Sama, and Tausug."
+          "name": "The 11 Recognized Tribes of Davao",
+          "detail": "Five Lumad tribes: Ata, Klata, Matigsalug, Ovu-Manuvu, and Tagabawa. Six Moro nations: Iranun, Kagan, Maguindanaon, Maranao, Sama, and Tausug."
         },
         {
-          "name": "Institutional Deputy Mayors for Every Tribe",
-          "detail": "Davao City is the only city in the Philippines that appoints 11 salaried Deputy Mayors—one chosen directly by each tribe—to represent their communities in executive policy and dispute mediation."
+          "name": "Official Deputy Mayors for Every Tribe",
+          "detail": "Davao is the only city in the country where 11 salaried Deputy Mayors, chosen directly by their respective tribes, hold offices in City Hall to advise on policy and mediate community concerns."
         },
         {
           "name": "Kadayawan Festival (The Festival of Festivals)",
-          "detail": "Celebrated every August not for a single religious icon, but as a secular, civic thanksgiving festival honoring bountiful harvest, nature's gifts, and tribal cultural traditions."
+          "detail": "A month-long civic celebration every August where indigenous dances, epic chants, authentic tribal homes, and harvest feasts take center stage."
         },
         {
-          "name": "Halal Food & Religious Freedom Ordinances",
-          "detail": "City ordinances mandate clear segregation of certified Halal meats in public markets and supermarkets, ensuring Muslim Dabawenyos can dine and shop with complete religious peace of mind."
+          "name": "Halal Food Segregation Rules",
+          "detail": "City laws mandate clear, dedicated shelves and counters for certified Halal foods in markets and supermarkets, ensuring Muslim residents can shop with full peace of mind."
         }
       ],
       "measurable_impacts": [
-        { "metric": "11 Deputy Mayors", "label": "Direct Representation", "detail": "Every recognized tribe holds official executive standing and staff support inside City Hall." },
-        { "metric": "Kadayawan Village", "label": "Living Heritage", "detail": "A permanent cultural village inside Magsaysay Park showcasing authentic traditional tribal architecture." },
-        { "metric": "Decades of Peace", "label": "Zero Sectarian Strife", "detail": "Mosques, Christian cathedrals, and indigenous sacred grounds stand peacefully side by side." }
+        { "metric": "11 Deputy Mayors", "label": "Direct Voice", "detail": "Every recognized tribe has full executive representation and staff support in city governance." },
+        { "metric": "Kadayawan Village", "label": "Living History", "detail": "A permanent cultural village inside Magsaysay Park where tribal artisans live and work." },
+        { "metric": "Decades of Peace", "label": "Zero Sectarian Strife", "detail": "Diverse communities have shared neighborhoods and marketplaces peacefully for generations." }
       ],
       "citizen_tips": [
-        "Visit the Kadayawan Village inside Magsaysay Park year-round to tour authentic traditional Lumad and Moro homes and taste native culinary delicacies.",
-        "Attend the Indak-Indak sa Kadalanan street dance competition in August to witness living indigenous dance and epic musical traditions.",
-        "When traveling to upland ancestral domains in Marilog or Paquibato, always show respect for indigenous elders and tribal council protocols."
+        "Drop by the Kadayawan Village inside Magsaysay Park on any weekend. You can walk through authentic Lumad and Moro houses and try delicious traditional native dishes.",
+        "Don't miss the Indak-Indak sa Kadalanan street dance competition in August—it is one of the most vibrant cultural displays in Asia.",
+        "When traveling to upland tribal lands in Marilog or Paquibato, always show respect for indigenous elders and follow community rules."
       ]
     },
     {
       "id": "food-abundance",
       "badge": "Food Security",
       "title": "Fruit Basket & Agricultural Bounty",
-      "summary": "Affordable nutrition, world-class chocolates, and fresh harvest year-round.",
-      "description": "Surrounded by fertile volcanic soil, Davao City is the Fruit and Cacao Capital of the Philippines. Citizens enjoy year-round abundance of durian, pomelo, mangosteen, marang, and fresh tuna and seafood from the Davao Gulf. The cost of nutritious food remains significantly more accessible than in congested capital cities.",
+      "summary": "Affordable fresh food, world-champion chocolates, and fruit harvests all year long.",
+      "description": "With Mount Apo's rich volcanic soil and the Davao Gulf right at our doorstep, nutritious fresh food is everywhere and affordable. Davao is the Fruit and Cacao Capital of the Philippines, producing world-renowned durian, sweet pomelos, mangosteen, and gold-medal artisan chocolates, alongside fresh seafood brought in daily.",
       "stat": "Top 1",
-      "stat_label": "Cacao & Agricultural Producer in the Philippines",
+      "stat_label": "Cacao & Durian Producer in the Philippines",
       "image": "/images/landmarks/philippine-eagle.jpg",
-      "hero_headline": "Mindanao's Agricultural Heartland Delivering Fresh, Affordable Nutrition 365 Days a Year",
-      "overview": "In an era of rising food inflation, living in Davao City offers an undeniable daily advantage: unparalleled agricultural abundance. Spanning over 244,000 hectares of territory—one of the largest land areas of any city in the world—much of Davao consists of lush agricultural watersheds, fruit orchards, and highland vegetable gardens. From the world-famous durian and sweet pomelo to international award-winning chocolates and fresh tuna caught in the Davao Gulf, residents enjoy fresh, organic nutrition at a fraction of capital city prices.",
+      "hero_headline": "Mindanao's Agricultural Heartland Where Fresh, Nutritious Food Won't Break the Bank",
+      "overview": "While families across the country struggle with skyrocketing grocery bills, living in Davao comes with an undeniable everyday advantage: our food is grown right here. Davao covers a massive territory—more than 244,000 hectares—and huge swaths of it are fertile agricultural valleys and highland farms. From the famous durian stalls along Magsaysay Park to the round-the-clock bustle of Bankerohan Public Market where fresh yellowfin tuna and upland vegetables arrive every morning, Dabawenyos eat fresh, healthy food at prices that make visitors from Manila want to pack their bags.",
       "ordinances_and_rules": [
         {
-          "name": "Official Cacao Capital of the Philippines (Republic Act 11547)",
-          "detail": "Officially declared by national law, Davao produces over 80% of the country's premium single-origin cacao. Local chocolatiers like Malagos Chocolate have won international gold medals in Paris and London."
+          "name": "Official Cacao Capital of the Philippines (RA 11547)",
+          "detail": "Recognized by national law, Davao produces over 80% of the country's cacao. Local chocolatiers like Malagos have brought home international gold awards from Paris and London."
         },
         {
-          "name": "King of Fruits: Durian Capital",
-          "detail": "Cultivating over 16 prized varieties including Puyat, Arancillo, Duyaya, and D101. Davao is the primary exporter of fresh durian to international markets including China, Japan, and Singapore."
+          "name": "Durian Capital of the Country",
+          "detail": "Growing over 16 distinct varieties including Puyat, Arancillo, and Duyaya. Davao supplies the majority of the nation's fruit and exports fresh durian directly to international markets."
         },
         {
-          "name": "Bankerohan & Agdao 24/7 Wholesale Food Markets",
-          "detail": "Wholesale fresh produce arrives nightly directly from local farmers in Calinan, Marilog, and Davao del Sur, providing citizens access to farm-gate prices for vegetables, poultry, and seafood."
+          "name": "24/7 Wholesale Food Markets",
+          "detail": "Bankerohan and Agdao public markets connect farmers in Calinan, Marilog, and Davao del Sur directly to families, cutting out unnecessary middlemen markups."
         },
         {
-          "name": "Organic Agriculture & Food Safety Ordinances",
-          "detail": "City ordinances support organic farming cooperatives, prohibit non-sustainable chemical dumping in agricultural zones, and test produce for chemical residues."
+          "name": "Support for Organic Cooperatives",
+          "detail": "City programs provide free seedling distributions, farm equipment grants, and cooperative training to keep local agricultural families thriving."
         }
       ],
       "measurable_impacts": [
-        { "metric": "80%+", "label": "Philippine Cacao Output", "detail": "The Davao region accounts for more than 80% of the nation's total chocolate production." },
-        { "metric": "Top 1", "label": "Durian Production", "detail": "Supplies over 70% of the entire country's durian supply and international export quota." },
-        { "metric": "-30% Lower", "label": "Food Basket Cost", "detail": "Fresh produce and seafood cost 25% to 35% less than in Metro Manila supermarkets." }
+        { "metric": "80%+", "label": "National Cacao Production", "detail": "The vast majority of Philippine chocolate starts right in the fertile soil of Davao." },
+        { "metric": "Top 1", "label": "Fruit Exporter", "detail": "Supplies over 70% of the country's durian, pomelo, and specialty tropical fruits." },
+        { "metric": "25-35% Lower", "label": "Grocery Costs", "detail": "Fresh farm produce and seafood cost substantially less than in capital city supermarkets." }
       ],
       "citizen_tips": [
-        "Visit Bankerohan Public Market early in the morning or late at night for the freshest Davao Gulf yellowfin tuna, bangus, and highland Marilog vegetables.",
-        "Peak durian and fruit season runs from July through October during Kadayawan, when sidewalk fruit stalls offer all-you-can-eat feasts.",
-        "Take a farm-to-table tour at the Malagos Chocolate Museum in Calinan to witness cacao processing and sample world-class dark chocolates."
+        "Head to Bankerohan Public Market late at night or early in the morning for the freshest seafood from the gulf and vegetables from the mountains at farm-gate prices.",
+        "Peak durian and mangosteen season runs from July to October during Kadayawan—fruit vendors line the streets offering fresh, sweet treats for pennies.",
+        "Visit the Malagos Chocolate Museum in Calinan to see how local cacao pods are transformed into world-class, award-winning dark chocolates."
       ]
     },
     {
       "id": "lifestyle-balance",
       "badge": "Work-Life Balance",
       "title": "From Sea to Mountain in Under an Hour",
-      "summary": "Modern metropolitan conveniences adjacent to pristine nature.",
-      "description": "Davao City offers Southern Mindanao's top tertiary hospitals, leading universities (Ateneo de Davao, University of the Philippines Mindanao, University of Mindanao), and expanding IT-BPO hubs—all without sacrificing access to nature. Within 45 minutes, Dabawenyos can retreat to the cool mountain pine breezes of Marilog or sail across to the white-sand coral reefs of Samal Island.",
+      "summary": "All the career opportunities of a big city, with beaches and mountain retreats right next door.",
+      "description": "Davao gives you the best of both worlds. You have top-tier hospitals (SPMC), prestigious universities, and expanding tech hubs, without spending four hours every day trapped in traffic. On weekends, you can hop on a 10-minute ferry to the beaches of Samal Island or drive 45 minutes up into the cool pine air of Marilog.",
       "stat": "45 Mins",
-      "stat_label": "From Downtown High-Rise to Mountain or Beach",
+      "stat_label": "From Downtown High-Rises to Mountain or Beach",
       "image": "/images/landmarks/davao-skyline.jpg",
-      "hero_headline": "Metropolitan Opportunities Without the Congestion: The Ultimate Work-Life Balance",
-      "overview": "For professionals and families seeking career growth without burning out in 4-hour daily traffic gridlocks, Davao City represents the ideal modern compromise. As the financial, educational, and medical capital of Mindanao, Davao hosts world-class research hospitals (Southern Philippines Medical Center), top-tier universities, and thriving tech sectors. Yet, within 45 minutes from your desk, you can be hiking cloud forests among highland pines or dipping your toes in the coral waters of Samal Island.",
+      "hero_headline": "Big City Career Opportunities Without the Soul-Crushing Traffic and Burnout",
+      "overview": "If you are tired of spending half your life sitting in gridlocked highway traffic just to get to work, Davao offers a refreshing change of pace. As the financial and educational hub of Mindanao, Davao has everything you need to build a career: modern office buildings, growing IT-BPO parks, excellent schools like Ateneo de Davao and UP Mindanao, and the country's largest hospital in SPMC. But when the workday wraps up, nature is waiting right on your doorstep. You can jog along the coastal road, take a quick boat to white-sand beaches, or wake up to the sea of clouds in Marilog.",
       "ordinances_and_rules": [
         {
-          "name": "Rapid Access to Island Escapes",
-          "detail": "A brief 10-minute ferry ride across the calm Davao Gulf connects the city center directly to the Island Garden City of Samal, offering white-sand beaches, diving spots, and marine sanctuaries."
+          "name": "10-Minute Island Getaway",
+          "detail": "A quick barge ride from Sasa Wharf takes you straight across to Samal Island's white-sand beaches, coral reefs, and calm waters."
         },
         {
-          "name": "Highland Marilog Alpine Retreats (1,200m Elevation)",
-          "detail": "Just 45 to 60 minutes northwest along the Davao-Bukidnon Highway lies Marilog, where cool temperatures (16°C – 22°C), pine forests, and sea-of-clouds vistas provide instant weekend rejuvenation."
+          "name": "Marilog Alpine Highland Retreat (1,200m Elevation)",
+          "detail": "Just 45 to 60 minutes northwest up the highway, temperatures drop to 16°C among pine trees and sea-of-clouds viewpoints, giving residents an instant cool-weather escape."
         },
         {
-          "name": "Expanding Green Spaces & Waterfront Promenades",
-          "detail": "The scenic Davao City Coastal Road offers dedicated, car-free cycling and jogging paths along the sea, while People's Park provides 4 hectares of lush urban botanical greenery in the city center."
+          "name": "Scenic Coastal Road & Public Promenades",
+          "detail": "The newly completed coastal bypass provides protected cycling paths and walking promenades right by the sea with stunning views of Mount Apo at sunset."
         },
         {
-          "name": "Premier Medical & Academic Infrastructure",
-          "detail": "Home to the largest government hospital in the Philippines (SPMC), Davao Doctors Hospital, Ateneo de Davao University, UP Mindanao, and the University of Mindanao."
+          "name": "Premier Medical & Academic Centers",
+          "detail": "Home to Southern Philippines Medical Center (1,500+ beds), top specialty clinics, and prestigious universities attracting students from all over the country."
         }
       ],
       "measurable_impacts": [
-        { "metric": "45 Mins", "label": "Coast to Mountain", "detail": "Escape the tropical heat to 18°C mountain pine breezes in less than an hour's drive." },
-        { "metric": "10 Mins", "label": "City to Coral Reefs", "detail": "Take a 10-minute barge ride from Sasa Wharf directly into pristine Samal island waters." },
-        { "metric": "1,500+ Beds", "label": "SPMC Medical Capacity", "detail": "The largest tertiary hospital facility in the Philippines offering comprehensive subspecialties." }
+        { "metric": "45 Mins", "label": "From City to Mountains", "detail": "Swap urban heat for 18°C mountain pine breezes in less than an hour's drive." },
+        { "metric": "10 Mins", "label": "To Coral Beaches", "detail": "Quick ferry rides connect downtown to the tropical waters of Samal Island." },
+        { "metric": "1,500+ Beds", "label": "SPMC Medical Capacity", "detail": "The largest government hospital facility in the Philippines offering comprehensive care." }
       ],
       "citizen_tips": [
-        "Head to Marilog early on Sunday morning (around 5:30 AM) to witness the breathtaking sea of clouds rolling over the mountain ridges.",
-        "Take an afternoon run or bike ride along the scenic Davao Coastal Road promenade with Mount Apo silhouetted against the sunset.",
-        "For weekend getaways, keep your snorkel and gear ready for quick day trips to Samal Island's Talikud coral garden."
+        "Wake up early on a Sunday (around 5:30 AM) and drive up to Marilog to catch the stunning sea of clouds rolling over the mountain ridges.",
+        "Take an afternoon run or rent a bike along the Davao Coastal Road promenade—the breeze off the gulf and the sunset over Mount Apo are unmatched.",
+        "Keep your snorkel mask in the trunk; Samal Island's Talikud coral garden is so close you can easily make a spontaneous day trip out of it."
       ]
     }
   ],
   "citizen_quotes": [
     {
-      "quote": "In Davao, discipline isn't about fear; it's about mutual respect. You can walk home late from work or university knowing that the community and our emergency 911 responders are looking out for you.",
+      "quote": "In Davao, discipline isn't about fear; it's about mutual respect. You can walk home late from work or university knowing that your neighbors and our 911 emergency teams are looking out for you.",
       "author": "Local Citizen & Tech Worker",
       "location": "Poblacion District"
     },
     {
-      "quote": "When you open the tap here, you drink clean mountain water. When you buy groceries, the fruits and vegetables came from local farms this morning. That is what true wealth and quality of life look like.",
+      "quote": "When you turn on the tap here, you drink clean mountain water. When you buy groceries, the fruits and vegetables came from local farms that very morning. That is what true wealth and quality of life look like.",
       "author": "Public Health Advocate",
       "location": "Calinan District"
     },
     {
-      "quote": "Davao is proof that Christians, Muslims, and Lumads can thrive side by side in brotherhood, sharing the same streets and celebrating each other's culture.",
+      "quote": "Davao proves that Christians, Muslims, and Lumads can live and work side by side in true brotherhood, sharing the same streets and celebrating each other's heritage.",
       "author": "Community Elder",
       "location": "Toril District"
     }
