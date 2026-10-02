@@ -1,7 +1,7 @@
 {
-  "name": "BetterSolano.org - LGU Solano Portal",
-  "short_name": "BetterSolano",
-  "description": "Access government services, emergency hotlines, and transparency data for Solano, Nueva Vizcaya.",
+  "name": "BetterDavao.org - LGU Davao Portal",
+  "short_name": "BetterDavao",
+  "description": "Access government services, emergency hotlines, and transparency data for Davao, Davao del Sur.",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",

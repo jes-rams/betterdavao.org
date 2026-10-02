@@ -1,7 +1,7 @@
 {
   "name": "bs-web",
   "version": "1.1.19",
-  "description": "BetterSolano.org - Official Portal for LGU Solano",
+  "description": "BetterDavao.org - Official Portal for LGU Davao",
   "scripts": {
     "dev": "python3 -m http.server 8000",
     "build": "bash build.sh",
@@ -23,7 +23,7 @@
     "package:only": "bash scripts/package-cpanel.sh"
   },
   "keywords": [
-    "solano",
+    "davao",
     "nueva-vizcaya",
     "government",
     "lgu"

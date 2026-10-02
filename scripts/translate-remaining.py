@@ -23,7 +23,7 @@ TRANSLATIONS_JS = 'assets/js/translations.js'
 
 # Words/phrases that should NOT be translated (proper nouns, acronyms, etc.)
 KEEP_AS_IS = {
-    'BLGF Portal', 'CMCI DTI Portal', 'LGU Solano Facebook',
+    'BLGF Portal', 'CMCI DTI Portal', 'LGU Davao Facebook',
     'Open Data Philippines', 'PhilHealth', 'GSIS', 'SSS', 'Pag-IBIG',
     'BFP', 'PNP', 'DILG', 'MDRRMO', 'MSWDO', 'SEEDO', 'MPDO',
     'TB-DOTS', 'BIR', 'DTI', 'SEC', 'DENR', 'DPWH', 'DSWD',
@@ -32,11 +32,11 @@ KEEP_AS_IS = {
     'DAR', 'DICT', 'DOE', 'DOF', 'DOJ', 'DOST', 'DND', 'NEDA',
     'NAPC', 'PCSO', 'PAGASA', 'PHIVOLCS', 'NDRRMC', 'OCD',
     'R2TMC', 'MTOF', 'BPLS', 'RPT', 'CTC', 'RPTA',
-    'Filipizen', 'BetterSolano.org', 'Better Solano',
-    'Abakada.org', 'volunteer@bettersolano.org',
-    'accounting@solano.gov.ph', 'Facebook', 'Google',
+    'Filipizen', 'BetterDavao.org', 'Better Davao',
+    'Abakada.org', 'volunteer@betterdavao.org',
+    'accounting@davao.gov.ph', 'Facebook', 'Google',
     'Sangguniang Bayan', 'Sangguniang Panlalawigan',
-    'Nueva Vizcaya', 'Solano', 'Bayombong',
+    'Davao del Sur', 'Davao', 'Bayombong',
 }
 
 # Patterns that should be kept as-is (regex)
@@ -465,18 +465,18 @@ FIL_SENTENCES = {
     # Common footer/sidebar links
     "BLGF Portal": "BLGF Portal",
     "CMCI DTI Portal": "CMCI DTI Portal",
-    "LGU Solano Facebook": "LGU Solano Facebook",
+    "LGU Davao Facebook": "LGU Davao Facebook",
     "Open Data Philippines": "Open Data Philippines",
-    "Better Solano": "Better Solano",
-    "BFP Solano": "BFP Solano",
+    "Better Davao": "Better Davao",
+    "BFP Davao": "BFP Davao",
 
     # Common service phrases
     "Contact us for assistance with this service.": "Makipag-ugnayan sa amin para sa tulong sa serbisyong ito.",
-    "Municipal Hall, Ground Floor Solano, Nueva Vizcaya 3708": "Munisipyo, Unang Palapag, Solano, Nueva Vizcaya 3708",
-    "Municipal Hall, 2nd Floor Solano, Nueva Vizcaya 3708": "Munisipyo, Ikalawang Palapag, Solano, Nueva Vizcaya 3708",
-    "Municipal Hall, Ground Floor, Solano, Nueva Vizcaya 3708": "Munisipyo, Unang Palapag, Solano, Nueva Vizcaya 3708",
-    "2nd Floor, Municipal Hall, Solano, Nueva Vizcaya": "Ikalawang Palapag, Munisipyo, Solano, Nueva Vizcaya",
-    "Ground Floor, Municipal Hall, Solano, Nueva Vizcaya": "Unang Palapag, Munisipyo, Solano, Nueva Vizcaya",
+    "Municipal Hall, Ground Floor Davao, Davao del Sur 3708": "Munisipyo, Unang Palapag, Davao, Davao del Sur 3708",
+    "Municipal Hall, 2nd Floor Davao, Davao del Sur 3708": "Munisipyo, Ikalawang Palapag, Davao, Davao del Sur 3708",
+    "Municipal Hall, Ground Floor, Davao, Davao del Sur 3708": "Munisipyo, Unang Palapag, Davao, Davao del Sur 3708",
+    "2nd Floor, Municipal Hall, Davao, Davao del Sur": "Ikalawang Palapag, Munisipyo, Davao, Davao del Sur",
+    "Ground Floor, Municipal Hall, Davao, Davao del Sur": "Unang Palapag, Munisipyo, Davao, Davao del Sur",
 
     # Time/duration phrases
     "8AM - 5PM": "8AM - 5PM",
@@ -577,7 +577,7 @@ FIL_SENTENCES = {
     "1st Class": "Unang Klase",
 
     # Offline page
-    "Emergency Hotlines - Solano, Nueva Vizcaya": "Mga Emergency Hotline - Solano, Nueva Vizcaya",
+    "Emergency Hotlines - Davao, Davao del Sur": "Mga Emergency Hotline - Davao, Davao del Sur",
     "Fire (BFP)": "Sunog (BFP)",
     "Police (PNP)": "Pulis (PNP)",
 
@@ -618,18 +618,18 @@ ILO_SENTENCES = {
     # Common footer/sidebar links
     "BLGF Portal": "BLGF Portal",
     "CMCI DTI Portal": "CMCI DTI Portal",
-    "LGU Solano Facebook": "LGU Solano Facebook",
+    "LGU Davao Facebook": "LGU Davao Facebook",
     "Open Data Philippines": "Open Data Philippines",
-    "Better Solano": "Better Solano",
-    "BFP Solano": "BFP Solano",
+    "Better Davao": "Better Davao",
+    "BFP Davao": "BFP Davao",
 
     # Common service phrases
     "Contact us for assistance with this service.": "Kontakennakami para iti tulong iti daytoy a serbisio.",
-    "Municipal Hall, Ground Floor Solano, Nueva Vizcaya 3708": "Munisipalidad, Umuna a Kadsaaran, Solano, Nueva Vizcaya 3708",
-    "Municipal Hall, 2nd Floor Solano, Nueva Vizcaya 3708": "Munisipalidad, Maikadua a Kadsaaran, Solano, Nueva Vizcaya 3708",
-    "Municipal Hall, Ground Floor, Solano, Nueva Vizcaya 3708": "Munisipalidad, Umuna a Kadsaaran, Solano, Nueva Vizcaya 3708",
-    "2nd Floor, Municipal Hall, Solano, Nueva Vizcaya": "Maikadua a Kadsaaran, Munisipalidad, Solano, Nueva Vizcaya",
-    "Ground Floor, Municipal Hall, Solano, Nueva Vizcaya": "Umuna a Kadsaaran, Munisipalidad, Solano, Nueva Vizcaya",
+    "Municipal Hall, Ground Floor Davao, Davao del Sur 3708": "Munisipalidad, Umuna a Kadsaaran, Davao, Davao del Sur 3708",
+    "Municipal Hall, 2nd Floor Davao, Davao del Sur 3708": "Munisipalidad, Maikadua a Kadsaaran, Davao, Davao del Sur 3708",
+    "Municipal Hall, Ground Floor, Davao, Davao del Sur 3708": "Munisipalidad, Umuna a Kadsaaran, Davao, Davao del Sur 3708",
+    "2nd Floor, Municipal Hall, Davao, Davao del Sur": "Maikadua a Kadsaaran, Munisipalidad, Davao, Davao del Sur",
+    "Ground Floor, Municipal Hall, Davao, Davao del Sur": "Umuna a Kadsaaran, Munisipalidad, Davao, Davao del Sur",
 
     # Time/duration phrases
     "8AM - 5PM": "8AM - 5PM",
@@ -730,7 +730,7 @@ ILO_SENTENCES = {
     "1st Class": "Umuna a Klase",
 
     # Offline page
-    "Emergency Hotlines - Solano, Nueva Vizcaya": "Dagiti Emergency Hotline - Solano, Nueva Vizcaya",
+    "Emergency Hotlines - Davao, Davao del Sur": "Dagiti Emergency Hotline - Davao, Davao del Sur",
     "Fire (BFP)": "Apuy (BFP)",
     "Police (PNP)": "Polis (PNP)",
 
