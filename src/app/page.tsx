@@ -75,18 +75,6 @@ export default function Home() {
               >
                 12-Point Priority Agenda
               </Link>
-              <Link
-                href="/budget"
-                className="bg-slate-800/90 hover:bg-slate-700 text-white px-6 py-3.5 rounded-xl font-bold shadow-md transition-all border border-slate-700 text-sm sm:text-base"
-              >
-                Inspect ₱12.7B Budget
-              </Link>
-              <Link
-                href="/projects"
-                className="bg-slate-800/90 hover:bg-slate-700 text-white px-6 py-3.5 rounded-xl font-bold shadow-md transition-all border border-slate-700 text-sm sm:text-base"
-              >
-                Track City Projects
-              </Link>
             </div>
 
             {/* Direct 911 Banner */}
