@@ -1,0 +1,21 @@
+{
+  "city": "Davao City",
+  "term": "2025-2028",
+  "officials": {
+    "mayor": {
+      "name": "Sebastian Z. Duterte",
+      "notes": "Succeeded to Mayor on January 23, 2026 after Rodrigo Duterte's seat was declared vacant."
+    },
+    "vice_mayor": {
+      "name": "Rodrigo \"Rigo\" S. Duterte II",
+      "notes": "Succeeded to Vice Mayor on January 23, 2026."
+    },
+    "councilors": [
+      {
+        "district": "General",
+        "description": "The Davao City Council consists of 24 members (8 per congressional district), plus ex-officio members."
+      }
+    ]
+  },
+  "source": "Official City Government of Davao Directory"
+}

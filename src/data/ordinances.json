@@ -1,0 +1,29 @@
+{
+  "city": "Davao City",
+  "recent_ordinances_and_resolutions": [
+    {
+      "ordinance_no": "0317-26",
+      "date": "August 2026",
+      "title": "Adoption of Updated Geohazard Maps",
+      "description": "Adopted the updated 2026 Flood and Rain-induced Landslide Susceptibility Maps."
+    },
+    {
+      "ordinance_no": "Supplemental Budget for WTE",
+      "date": "September 2026",
+      "title": "Waste-to-Energy Project Funding",
+      "description": "Approved ₱685.3M budget including ₱65M reserve fund for an 11-MW waste-to-energy plant bid."
+    },
+    {
+      "ordinance_no": "Legislative Authority",
+      "date": "July 2026",
+      "title": "School-Based Feeding Program",
+      "description": "Agreement with DepEd for a school-based feeding program."
+    },
+    {
+      "ordinance_no": "Executive Order No. 23 (2026)",
+      "date": "2026",
+      "title": "PWD Financial Assistance",
+      "description": "Promulgated implementing rules for City Ord. No. 049-25 granting annual financial assistance to PWDs."
+    }
+  ]
+}

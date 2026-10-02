@@ -1,0 +1,17 @@
+{
+  "city": "Davao City",
+  "budgets": [
+    {
+      "year": 2024,
+      "amount_php": 12735450908,
+      "amount_formatted": "₱12.7 billion",
+      "notes": "Represented a 7.51% increase from 2023."
+    },
+    {
+      "year": 2023,
+      "amount_php": 11846005557,
+      "amount_formatted": "₱11.8 billion"
+    }
+  ],
+  "source": "Davao City Council Approvals"
+}

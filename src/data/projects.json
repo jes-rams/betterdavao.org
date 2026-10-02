@@ -1,0 +1,33 @@
+{
+  "city": "Davao City",
+  "projects": {
+    "ongoing": [
+      {
+        "name": "Davao City Bypass Construction Project",
+        "description": "45.5-kilometer project connecting Toril to Panabo City with the Philippines' first long-distance mountain tunnel."
+      },
+      {
+        "name": "Samal Island–Davao City Connector (SIDC) Bridge",
+        "description": "3.98-kilometer, four-lane extradosed bridge project linking Davao City and Samal."
+      },
+      {
+        "name": "Davao Public Transport Modernization Project (DPTMP)",
+        "description": "Establishing a modern bus-based public transport system."
+      },
+      {
+        "name": "Davao International Airport Modernization",
+        "description": "Upgrades to the airport including passenger terminal building expansion."
+      }
+    ],
+    "completed": [
+      {
+        "name": "Local Infrastructure Projects",
+        "description": "740 infrastructure projects completed between 2020 and 2024 including roads, bridges, irrigation, and public buildings."
+      },
+      {
+        "name": "Flood Control Initiatives",
+        "description": "Revetment walls and river embankments along the Talomo River."
+      }
+    ]
+  }
+}

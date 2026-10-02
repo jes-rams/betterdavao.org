@@ -1,0 +1,17 @@
+{
+  "city": "Davao City",
+  "contact_information": {
+    "trunkline": "(082) 241-1000",
+    "emergency_hotline": "911",
+    "administrative_non_emergency": "(082) 296-1433",
+    "email": [
+      "cio@davaocity.gov.ph",
+      "911@davaocity.gov.ph"
+    ],
+    "physical_address": "City Information Office, Room 18, City Hall Bldg., San Pedro St., Davao City, 8000 Philippines",
+    "social_media": {
+      "facebook": "https://www.facebook.com/davaocitygov"
+    },
+    "website": "https://davaocity.gov.ph"
+  }
+}
