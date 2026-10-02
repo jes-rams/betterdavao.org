@@ -40,38 +40,52 @@ export default function AgendaIndexPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {pillars.map((pillar) => (
+            {pillars.map((pillar: any) => (
               <Link
                 key={pillar.number}
                 href={`/agenda/${pillar.slug}`}
-                className="bg-white rounded-2xl p-6 border border-slate-200 shadow-xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group flex flex-col justify-between"
+                className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-black text-lg group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                      {pillar.number}
-                    </span>
-                    <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                      Pillar #{pillar.number}
-                    </span>
+                  {pillar.image && (
+                    <div className="w-full h-40 overflow-hidden bg-slate-200 relative mb-4">
+                      <img 
+                        src={pillar.image} 
+                        alt={pillar.title} 
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  <div className="px-6 pt-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-black text-lg group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        {pillar.number}
+                      </span>
+                      <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                        Pillar #{pillar.number}
+                      </span>
+                    </div>
+
+                    <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
+                      {pillar.title}
+                    </h3>
+
+                    <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3" title={pillar.summary}>
+                      {pillar.summary}
+                    </p>
                   </div>
-
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
-                    {pillar.title}
-                  </h3>
-
-                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                    {pillar.summary}
-                  </p>
                 </div>
 
-                <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                  <span className="text-xs text-slate-400 font-medium">
-                    {pillar.responsible_departments?.[0] || "City Government"}
-                  </span>
-                  <span className="text-sm font-bold text-blue-700 group-hover:underline inline-flex items-center gap-1">
-                    Inspect Blueprint &rarr;
-                  </span>
+                <div className="px-6 pb-6 mt-auto">
+                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+                    <span className="text-xs text-slate-400 font-medium truncate max-w-[60%]">
+                      {pillar.responsible_departments?.[0] || "City Government"}
+                    </span>
+                    <span className="text-sm font-bold text-blue-700 group-hover:underline inline-flex items-center gap-1 whitespace-nowrap">
+                      Inspect &rarr;
+                    </span>
+                  </div>
                 </div>
               </Link>
             ))}

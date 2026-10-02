@@ -14,17 +14,20 @@
         {
           "title": "Lingap Para sa Mahirap Universal Assistance",
           "description": "A pioneering local social safety net that provides direct subsidies for prescription medicines, hospitalization bills, laboratory procedures, and funeral assistance for indigent residents.",
-          "target_impact": "Serves over 200,000 Dabawenyo patients and family beneficiaries annually with streamlined computerized processing."
+          "target_impact": "Serves over 200,000 Dabawenyo patients and family beneficiaries annually with streamlined computerized processing.",
+          "image": "/images/initiatives/init-poverty-alleviation-0.jpg"
         },
         {
           "title": "Mag-Negosyo Ta 'Day Livelihood Capital Grants",
           "description": "Seed funding, financial literacy training, and micro-loan grants specifically tailored for women entrepreneurs, mothers, and grassroots community cooperatives.",
-          "target_impact": "Empowered thousands of women-led micro-enterprises across all 182 barangays to achieve self-reliance."
+          "target_impact": "Empowered thousands of women-led micro-enterprises across all 182 barangays to achieve self-reliance.",
+          "image": "/images/initiatives/init-poverty-alleviation-1.jpg"
         },
         {
           "title": "Integrated Senior Citizen & PWD Centers",
           "description": "Dedicated community welfare spaces in every district providing physical therapy, socialization, monthly medicine distributions, and legal aid.",
-          "target_impact": "Guarantees social protection and dignity for over 150,000 registered senior citizens and PWDs."
+          "target_impact": "Guarantees social protection and dignity for over 150,000 registered senior citizens and PWDs.",
+          "image": "/images/initiatives/init-poverty-alleviation-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -33,11 +36,24 @@
         "City Cooperative and Livelihood Development Office"
       ],
       "civic_indicators": [
-        { "metric": "₱845M+", "label": "Annual CSWDO Budget", "description": "Dedicated to community welfare, disaster relief supplies, and social protection services." },
-        { "metric": "182", "label": "Barangays Covered", "description": "Barangay social workers stationed in all three administrative districts." },
-        { "metric": "₱0", "label": "Processing Fees", "description": "Zero administrative charges to apply for Lingap and emergency medical guarantees." }
+        {
+          "metric": "₱845M+",
+          "label": "Annual CSWDO Budget",
+          "description": "Dedicated to community welfare, disaster relief supplies, and social protection services."
+        },
+        {
+          "metric": "182",
+          "label": "Barangays Covered",
+          "description": "Barangay social workers stationed in all three administrative districts."
+        },
+        {
+          "metric": "₱0",
+          "label": "Processing Fees",
+          "description": "Zero administrative charges to apply for Lingap and emergency medical guarantees."
+        }
       ],
-      "citizen_action": "Dabawenyos in need of medical financial assistance can apply directly at the Lingap Centers located at the Southern Philippines Medical Center (SPMC) or the City Hall Annex with their hospital billing and barangay indigency certificate."
+      "citizen_action": "Dabawenyos in need of medical financial assistance can apply directly at the Lingap Centers located at the Southern Philippines Medical Center (SPMC) or the City Hall Annex with their hospital billing and barangay indigency certificate.",
+      "image": "/images/agenda/poverty-alleviation.jpg"
     },
     {
       "number": 2,
@@ -51,17 +67,20 @@
         {
           "title": "Davao City Coastal Bypass Road",
           "description": "A multi-phase scenic coastal highway extending from Bago Aplaya to R. Castillo, featuring integrated pedestrian promenades, bike lanes, and heavy-duty storm surge sea walls.",
-          "target_impact": "Diverts over 30,000 vehicles daily away from downtown congestion while providing public waterfront parks."
+          "target_impact": "Diverts over 30,000 vehicles daily away from downtown congestion while providing public waterfront parks.",
+          "image": "/images/initiatives/init-infrastructure-connectivity-0.jpg"
         },
         {
           "title": "Comprehensive Urban Drainage & Flood Interceptors",
           "description": "Engineered concrete drainage channels, retention basins, and river dikes along the Matina, Talomo, and Davao river flood basins to mitigate localized flash flooding.",
-          "target_impact": "Protects over 40 low-lying flood-prone barangays from perennial monsoon flash ponding."
+          "target_impact": "Protects over 40 low-lying flood-prone barangays from perennial monsoon flash ponding.",
+          "image": "/images/initiatives/init-infrastructure-connectivity-1.jpg"
         },
         {
           "title": "Upland Farm-to-Market Road Concreting",
           "description": "Paving critical rural road arteries in Paquibato, Marilog, Baguio, and Calinan to connect indigenous agricultural communities to downtown food markets.",
-          "target_impact": "Reduces farm produce transit time by up to 50%, cutting transport spoilage for local farmers."
+          "target_impact": "Reduces farm produce transit time by up to 50%, cutting transport spoilage for local farmers.",
+          "image": "/images/initiatives/init-infrastructure-connectivity-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -70,11 +89,24 @@
         "Department of Public Works and Highways (DPWH Region XI Partner)"
       ],
       "civic_indicators": [
-        { "metric": "₱2.0B+", "label": "City Engineer Budget", "description": "Direct municipal capital for road rehabilitation, public buildings, and drainage networks." },
-        { "metric": "₱1.6B", "label": "Annual Development Fund", "description": "Strictly reserved for multi-year infrastructure, bridges, and flood control structures." },
-        { "metric": "40+ km", "label": "New Road Links", "description": "Bypass and arterial road extensions developed to expand the urban development perimeter." }
+        {
+          "metric": "₱2.0B+",
+          "label": "City Engineer Budget",
+          "description": "Direct municipal capital for road rehabilitation, public buildings, and drainage networks."
+        },
+        {
+          "metric": "₱1.6B",
+          "label": "Annual Development Fund",
+          "description": "Strictly reserved for multi-year infrastructure, bridges, and flood control structures."
+        },
+        {
+          "metric": "40+ km",
+          "label": "New Road Links",
+          "description": "Bypass and arterial road extensions developed to expand the urban development perimeter."
+        }
       ],
-      "citizen_action": "Citizens can monitor infrastructure procurement, bid awards, and contract delivery schedules directly through the city's Annual Development Fund disclosure records or report damaged roads via the City Engineer's Hotline."
+      "citizen_action": "Citizens can monitor infrastructure procurement, bid awards, and contract delivery schedules directly through the city's Annual Development Fund disclosure records or report damaged roads via the City Engineer's Hotline.",
+      "image": "/images/agenda/infrastructure-connectivity-fixed.jpg"
     },
     {
       "number": 3,
@@ -88,17 +120,20 @@
         {
           "title": "High-Value Crop & Cacao Productivity Programs",
           "description": "Distributing certified hybrid cacao, durian, and coffee seedlings alongside technical agronomy training to smallholders in ancestral domain lands.",
-          "target_impact": "Cemented Davao's status as the Cacao Capital of the Philippines producing over 80% of national premium chocolate beans."
+          "target_impact": "Cemented Davao's status as the Cacao Capital of the Philippines producing over 80% of national premium chocolate beans.",
+          "image": "/images/initiatives/init-agriculture-food-security-0.jpg"
         },
         {
           "title": "Post-Harvest Cold Storage & Logistics Centers",
           "description": "Establishing municipal cold-chain hubs to prevent perishability in fruit harvests and seafood hauls, giving farmers leverage against middlemen price gouging.",
-          "target_impact": "Cuts post-harvest crop loss from 25% down to under 8% for participating agricultural cooperatives."
+          "target_impact": "Cuts post-harvest crop loss from 25% down to under 8% for participating agricultural cooperatives.",
+          "image": "/images/initiatives/init-agriculture-food-security-1.jpg"
         },
         {
           "title": "Farmer-to-Consumer Pop-Up Food Caravans",
           "description": "Regular direct-to-consumer agricultural markets across residential subdivisions and public parks, allowing citizens to buy fresh harvest at farm-gate prices.",
-          "target_impact": "Delivers fresh, nutritious food to urban families while providing local farmers 100% of retail profit margins."
+          "target_impact": "Delivers fresh, nutritious food to urban families while providing local farmers 100% of retail profit margins.",
+          "image": "/images/initiatives/init-agriculture-food-security-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -107,11 +142,24 @@
         "Davao City Cooperative Development Office"
       ],
       "civic_indicators": [
-        { "metric": "80%+", "label": "National Cacao Share", "description": "Davao produces the lion's share of Philippine export-grade cacao beans." },
-        { "metric": "16+", "label": "Commercial Durian Varieties", "description": "Puyat, Duyaya, Arancillo, and Native varieties cultivated for domestic consumption and export." },
-        { "metric": "Thousands", "label": "Registered Smallholders", "description": "Supported through free fertilizer, pest management training, and machinery grants." }
+        {
+          "metric": "80%+",
+          "label": "National Cacao Share",
+          "description": "Davao produces the lion's share of Philippine export-grade cacao beans."
+        },
+        {
+          "metric": "16+",
+          "label": "Commercial Durian Varieties",
+          "description": "Puyat, Duyaya, Arancillo, and Native varieties cultivated for domestic consumption and export."
+        },
+        {
+          "metric": "Thousands",
+          "label": "Registered Smallholders",
+          "description": "Supported through free fertilizer, pest management training, and machinery grants."
+        }
       ],
-      "citizen_action": "Local farmers and cooperatives can register with the City Agriculturist's Office to receive free soil testing, certified seedlings, tractor assistance, and crop insurance subsidies under the Philippine Crop Insurance Corporation (PCIC)."
+      "citizen_action": "Local farmers and cooperatives can register with the City Agriculturist's Office to receive free soil testing, certified seedlings, tractor assistance, and crop insurance subsidies under the Philippine Crop Insurance Corporation (PCIC).",
+      "image": "/images/agenda/agriculture-food-security.jpg"
     },
     {
       "number": 4,
@@ -125,17 +173,20 @@
         {
           "title": "Panigan-Tamugan Watershed Strict Conservation",
           "description": "Enforcing the watershed protection ordinance that bans aerial chemical spraying, heavy commercial farming, and harmful extractive industries in drinking water recharge zones.",
-          "target_impact": "Guarantees crystal-clear, chemical-free mountain drinking water for millions of current and future residents."
+          "target_impact": "Guarantees crystal-clear, chemical-free mountain drinking water for millions of current and future residents.",
+          "image": "/images/initiatives/init-environment-watershed-0.jpg"
         },
         {
           "title": "Comprehensive Solid Waste Segregation & Recovery",
           "description": "Promoting mandatory household source-segregation, operating Material Recovery Facilities (MRFs) across barangays, and enforcing anti-littering laws.",
-          "target_impact": "Diverts recyclable and compostable waste away from municipal landfills while keeping urban canals free from plastic clogs."
+          "target_impact": "Diverts recyclable and compostable waste away from municipal landfills while keeping urban canals free from plastic clogs.",
+          "image": "/images/initiatives/init-environment-watershed-1.jpg"
         },
         {
           "title": "Mount Apo Heritage Conservation & Reforestation",
           "description": "Partnering with indigenous Bagobo-Tagabawa tribal forest guards to conduct active re-greening, trail management, and anti-poaching patrols across Mount Apo Natural Park.",
-          "target_impact": "Preserves critical biodiversity, including nesting habitats of the critically endangered Philippine Eagle."
+          "target_impact": "Preserves critical biodiversity, including nesting habitats of the critically endangered Philippine Eagle.",
+          "image": "/images/initiatives/init-environment-watershed-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -144,11 +195,24 @@
         "Davao City Water District (DCWD Partner)"
       ],
       "civic_indicators": [
-        { "metric": "2,954 m", "label": "Mount Apo Protected Peak", "description": "Ecological sanctuary and premier national park within city jurisdiction." },
-        { "metric": "100%", "label": "No-Plastic Days", "description": "Mandatory reduction policies on single-use non-biodegradable plastics in retail establishments." },
-        { "metric": "Millions", "label": "Native Seedlings Planted", "description": "Planted across upland riverbanks under the city's annual environmental watershed greening drives." }
+        {
+          "metric": "2,954 m",
+          "label": "Mount Apo Protected Peak",
+          "description": "Ecological sanctuary and premier national park within city jurisdiction."
+        },
+        {
+          "metric": "100%",
+          "label": "No-Plastic Days",
+          "description": "Mandatory reduction policies on single-use non-biodegradable plastics in retail establishments."
+        },
+        {
+          "metric": "Millions",
+          "label": "Native Seedlings Planted",
+          "description": "Planted across upland riverbanks under the city's annual environmental watershed greening drives."
+        }
       ],
-      "citizen_action": "Dabawenyos can volunteer in monthly coastal cleanups organized by CENRO or participate in community tree-growing programs in the Panigan-Tamugan recharge zones."
+      "citizen_action": "Dabawenyos can volunteer in monthly coastal cleanups organized by CENRO or participate in community tree-growing programs in the Panigan-Tamugan recharge zones.",
+      "image": "/images/agenda/environment-watershed.jpg"
     },
     {
       "number": 5,
@@ -162,17 +226,20 @@
         {
           "title": "District Health Centers & Barangay Outposts",
           "description": "Operating fully staffed community clinics offering free prenatal checkups, immunization, dental care, tuberculosis treatment (DOTS), and clinical consultations.",
-          "target_impact": "Provides primary healthcare within walking distance for residents across all 182 barangays."
+          "target_impact": "Provides primary healthcare within walking distance for residents across all 182 barangays.",
+          "image": "/images/initiatives/init-public-healthcare-0.jpg"
         },
         {
           "title": "Free Maintenance Medicine Distribution",
           "description": "Monthly allocation of hypertension, diabetes, and cardiovascular maintenance medicines distributed directly through barangay health workers.",
-          "target_impact": "Relieves low-income families from the crippling recurring cost of life-sustaining prescription medicines."
+          "target_impact": "Relieves low-income families from the crippling recurring cost of life-sustaining prescription medicines.",
+          "image": "/images/initiatives/init-public-healthcare-1.jpg"
         },
         {
           "title": "Maternal, Newborn & Child Health Guarantee",
           "description": "Comprehensive newborn screening, maternal nutrition packages, and accredited lying-in birthing centers to reduce maternal and infant mortality to near zero.",
-          "target_impact": "Ensures safe, sterile, and professional deliveries for every expectant mother regardless of income."
+          "target_impact": "Ensures safe, sterile, and professional deliveries for every expectant mother regardless of income.",
+          "image": "/images/initiatives/init-public-healthcare-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -181,11 +248,24 @@
         "District Health Centers"
       ],
       "civic_indicators": [
-        { "metric": "₱812M+", "label": "City Health Budget", "description": "Dedicated annual funding for local clinics, medical supplies, vaccines, and doctor salaries." },
-        { "metric": "17", "label": "District Health Centers", "description": "Full-service primary care facilities covering urban, suburban, and rural population clusters." },
-        { "metric": "1,500+", "label": "Hospital Beds at SPMC", "description": "The largest tertiary training and research hospital in the Philippines located in Bajada, Davao City." }
+        {
+          "metric": "₱812M+",
+          "label": "City Health Budget",
+          "description": "Dedicated annual funding for local clinics, medical supplies, vaccines, and doctor salaries."
+        },
+        {
+          "metric": "17",
+          "label": "District Health Centers",
+          "description": "Full-service primary care facilities covering urban, suburban, and rural population clusters."
+        },
+        {
+          "metric": "1,500+",
+          "label": "Hospital Beds at SPMC",
+          "description": "The largest tertiary training and research hospital in the Philippines located in Bajada, Davao City."
+        }
       ],
-      "citizen_action": "Residents can visit their local Barangay Health Station to register for free routine blood pressure checks, diabetes screening, child immunizations, and free monthly maintenance medicine allotments."
+      "citizen_action": "Residents can visit their local Barangay Health Station to register for free routine blood pressure checks, diabetes screening, child immunizations, and free monthly maintenance medicine allotments.",
+      "image": "/images/agenda/public-healthcare.jpg"
     },
     {
       "number": 6,
@@ -199,17 +279,20 @@
         {
           "title": "Educational Benefit System Unit (EBSU) Scholarships",
           "description": "Full municipal scholarship grants covering tuition and living allowances for deserving college students, medical scholars, and law students.",
-          "target_impact": "Graduates thousands of doctors, lawyers, engineers, and teachers who serve back in the Davao public sector."
+          "target_impact": "Graduates thousands of doctors, lawyers, engineers, and teachers who serve back in the Davao public sector.",
+          "image": "/images/initiatives/init-education-youth-0.jpg"
         },
         {
           "title": "Special Education Fund (SEF) School Building Program",
           "description": "Utilizing local real property tax allocations to build multi-story typhoon-resilient classrooms, science laboratories, and school perimeter fences.",
-          "target_impact": "Eliminates classroom shortages and provides safe, conducive learning environments in public elementary and high schools."
+          "target_impact": "Eliminates classroom shortages and provides safe, conducive learning environments in public elementary and high schools.",
+          "image": "/images/initiatives/init-education-youth-1.jpg"
         },
         {
           "title": "Tech-Voc & Digital Skills Academy",
           "description": "Free vocational training in automotive repair, electrical installation, software coding, and digital marketing in partnership with TESDA.",
-          "target_impact": "Equips out-of-school youth with high-demand trade certifications that lead directly to high-paying jobs."
+          "target_impact": "Equips out-of-school youth with high-demand trade certifications that lead directly to high-paying jobs.",
+          "image": "/images/initiatives/init-education-youth-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -218,11 +301,24 @@
         "Department of Education (DepEd Davao City Division)"
       ],
       "civic_indicators": [
-        { "metric": "Thousands", "label": "Active City Scholars", "description": "Financially supported college, medical, and post-graduate scholars studying in top universities." },
-        { "metric": "100+", "label": "Classrooms Built/Repaired", "description": "Constructed annually utilizing Special Education Fund proceeds." },
-        { "metric": "Top 1", "label": "Mindanao University Hub", "description": "Home to UP Mindanao, Ateneo de Davao, University of Mindanao, UIC, and San Pedro College." }
+        {
+          "metric": "Thousands",
+          "label": "Active City Scholars",
+          "description": "Financially supported college, medical, and post-graduate scholars studying in top universities."
+        },
+        {
+          "metric": "100+",
+          "label": "Classrooms Built/Repaired",
+          "description": "Constructed annually utilizing Special Education Fund proceeds."
+        },
+        {
+          "metric": "Top 1",
+          "label": "Mindanao University Hub",
+          "description": "Home to UP Mindanao, Ateneo de Davao, University of Mindanao, UIC, and San Pedro College."
+        }
       ],
-      "citizen_action": "High school graduating seniors and college students can apply for EBSU municipal scholarships every academic semester at the City Hall Annex by presenting their academic records and certificate of residency."
+      "citizen_action": "High school graduating seniors and college students can apply for EBSU municipal scholarships every academic semester at the City Hall Annex by presenting their academic records and certificate of residency.",
+      "image": "/images/agenda/education-youth.jpg"
     },
     {
       "number": 7,
@@ -236,17 +332,20 @@
         {
           "title": "Davao City Investment Incentive Code (DCIPC)",
           "description": "Fiscal incentives, including up to 3 years of local business tax exemptions and real property tax relief for qualified new and expanding enterprises.",
-          "target_impact": "Attracts billions of pesos in private capital investments in IT-BPO, renewable energy, cold storage, and tourism."
+          "target_impact": "Attracts billions of pesos in private capital investments in IT-BPO, renewable energy, cold storage, and tourism.",
+          "image": "/images/initiatives/init-business-investment-0.jpg"
         },
         {
           "title": "Streamlined Electronic Business Permitting (eBPLS)",
           "description": "Full online application, assessment, and digital payment for business permits, drastically reducing processing time from weeks to hours.",
-          "target_impact": "Ranked among the most competitive cities in the Philippines for Ease of Doing Business."
+          "target_impact": "Ranked among the most competitive cities in the Philippines for Ease of Doing Business.",
+          "image": "/images/initiatives/init-business-investment-1.jpg"
         },
         {
           "title": "Support for Micro, Small & Medium Enterprises (MSMEs)",
           "description": "Providing shared service facilities, packaging design assistance, trade fair exhibitions, and low-interest credit matching for local entrepreneurs.",
-          "target_impact": "Drives grassroots employment and nurtures homegrown Davao brands into national retail chains."
+          "target_impact": "Drives grassroots employment and nurtures homegrown Davao brands into national retail chains.",
+          "image": "/images/initiatives/init-business-investment-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -255,11 +354,24 @@
         "City Treasurer's Office (CTO)"
       ],
       "civic_indicators": [
-        { "metric": "50,000+", "label": "Registered Businesses", "description": "Active formal commercial enterprises registered in Davao City's eBPLS database." },
-        { "metric": "₱Billions", "label": "Annual Investments", "description": "In private commercial infrastructure, real estate, manufacturing, and IT infrastructure." },
-        { "metric": "3 Years", "label": "Local Tax Holidays", "description": "Offered for preferred investment categories under the municipal incentive code." }
+        {
+          "metric": "50,000+",
+          "label": "Registered Businesses",
+          "description": "Active formal commercial enterprises registered in Davao City's eBPLS database."
+        },
+        {
+          "metric": "₱Billions",
+          "label": "Annual Investments",
+          "description": "In private commercial infrastructure, real estate, manufacturing, and IT infrastructure."
+        },
+        {
+          "metric": "3 Years",
+          "label": "Local Tax Holidays",
+          "description": "Offered for preferred investment categories under the municipal incentive code."
+        }
       ],
-      "citizen_action": "Investors and startup founders can consult with the Davao City Investment Promotion Center (DCIPC) on Magsaysay Park for customized investment briefings, site selection assistance, and tax incentive applications."
+      "citizen_action": "Investors and startup founders can consult with the Davao City Investment Promotion Center (DCIPC) on Magsaysay Park for customized investment briefings, site selection assistance, and tax incentive applications.",
+      "image": "/images/agenda/business-investment.jpg"
     },
     {
       "number": 8,
@@ -273,17 +385,20 @@
         {
           "title": "Task Force Davao Anti-Terrorism Shield",
           "description": "A joint military and police security formation operating 24/7 fortified security checkpoints at all major vehicular land entry gates (Sirawan, Lasang, and Calinan).",
-          "target_impact": "Intercepts contraband, illegal firearms, and security threats before they can enter the city perimeter."
+          "target_impact": "Intercepts contraband, illegal firearms, and security threats before they can enter the city perimeter.",
+          "image": "/images/initiatives/init-peace-and-order-0.jpg"
         },
         {
           "title": "High-Definition Citywide CCTV Surveillance Network",
           "description": "Centralized command center monitoring hundreds of optical zoom and night-vision surveillance cameras along commercial districts and major highways.",
-          "target_impact": "Enables rapid police response to traffic accidents, petty theft, and hit-and-run incidents with crystal-clear digital footage."
+          "target_impact": "Enables rapid police response to traffic accidents, petty theft, and hit-and-run incidents with crystal-clear digital footage.",
+          "image": "/images/initiatives/init-peace-and-order-1.jpg"
         },
         {
           "title": "Community-Based Drug Rehabilitation & Prevention",
           "description": "Structured outpatient recovery centers, counseling, and vocational reintegration for recovering individuals, breaking cycles of substance abuse.",
-          "target_impact": "Empowers former drug dependents to return as productive, employed members of their communities."
+          "target_impact": "Empowers former drug dependents to return as productive, employed members of their communities.",
+          "image": "/images/initiatives/init-peace-and-order-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -292,11 +407,24 @@
         "Task Force Davao (TFD)"
       ],
       "civic_indicators": [
-        { "metric": "24/7", "label": "Active Checkpoint Rings", "description": "Securing all highway entrances into Davao City day and night." },
-        { "metric": "Thousands", "label": "Trained Barangay Tanods", "description": "Grassroots community watchmen protecting neighborhood interiors." },
-        { "metric": "Top Tier", "label": "National Safety Index", "description": "Consistently recognized among the safest metropolitan cities in the Philippines." }
+        {
+          "metric": "24/7",
+          "label": "Active Checkpoint Rings",
+          "description": "Securing all highway entrances into Davao City day and night."
+        },
+        {
+          "metric": "Thousands",
+          "label": "Trained Barangay Tanods",
+          "description": "Grassroots community watchmen protecting neighborhood interiors."
+        },
+        {
+          "metric": "Top Tier",
+          "label": "National Safety Index",
+          "description": "Consistently recognized among the safest metropolitan cities in the Philippines."
+        }
       ],
-      "citizen_action": "Citizens can report suspicious activities or security concerns directly to the Public Safety and Security Command Center or dial 911 for immediate police dispatch."
+      "citizen_action": "Citizens can report suspicious activities or security concerns directly to the Public Safety and Security Command Center or dial 911 for immediate police dispatch.",
+      "image": "/images/agenda/peace-and-order.jpg"
     },
     {
       "number": 9,
@@ -310,17 +438,20 @@
         {
           "title": "Online Building Permit System (OBPS)",
           "description": "A fully digitized platform where architects, engineers, and homeowners upload construction plans, track multi-agency approvals, and receive electronic permits.",
-          "target_impact": "Reduces building permit processing from months of manual physical follow-ups to streamlined digital approvals."
+          "target_impact": "Reduces building permit processing from months of manual physical follow-ups to streamlined digital approvals.",
+          "image": "/images/initiatives/init-digital-governance-0.jpg"
         },
         {
           "title": "Integrated Online Payments & Digital Cedula",
           "description": "Integration of digital banking, e-wallets (GCash, Maya), and credit card payments for real property taxes, business taxes, and community tax certificates.",
-          "target_impact": "Eliminates long physical queuing at City Hall cashier windows, saving millions of citizen work hours."
+          "target_impact": "Eliminates long physical queuing at City Hall cashier windows, saving millions of citizen work hours.",
+          "image": "/images/initiatives/init-digital-governance-1.jpg"
         },
         {
           "title": "Open Civic Data & Freedom of Information",
           "description": "Publishing public budgets, city ordinances, and executive approvals online for civic oversight, community researchers, and civic tech platforms.",
-          "target_impact": "Fosters complete municipal accountability and empowers citizen watchdogs to audit local governance."
+          "target_impact": "Fosters complete municipal accountability and empowers citizen watchdogs to audit local governance.",
+          "image": "/images/initiatives/init-digital-governance-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -329,11 +460,24 @@
         "Office of the City Building Official (OCBO)"
       ],
       "civic_indicators": [
-        { "metric": "100%", "label": "Digital Building Submissions", "description": "Architectural and engineering plans processed paperlessly via OBPS." },
-        { "metric": "24/7", "label": "Online Tax Assessment", "description": "Real property and business tax balances checkable online anytime." },
-        { "metric": "Zero", "label": "Bribery Tolerance", "description": "Algorithmic, auditable digital queues eliminate discretionary gatekeeping." }
+        {
+          "metric": "100%",
+          "label": "Digital Building Submissions",
+          "description": "Architectural and engineering plans processed paperlessly via OBPS."
+        },
+        {
+          "metric": "24/7",
+          "label": "Online Tax Assessment",
+          "description": "Real property and business tax balances checkable online anytime."
+        },
+        {
+          "metric": "Zero",
+          "label": "Bribery Tolerance",
+          "description": "Algorithmic, auditable digital queues eliminate discretionary gatekeeping."
+        }
       ],
-      "citizen_action": "Property owners can verify their annual real property tax balances or file for community tax certificates (Cedula) directly through the city's official web portals without visiting City Hall."
+      "citizen_action": "Property owners can verify their annual real property tax balances or file for community tax certificates (Cedula) directly through the city's official web portals without visiting City Hall.",
+      "image": "/images/agenda/digital-governance.jpg"
     },
     {
       "number": 10,
@@ -347,17 +491,20 @@
         {
           "title": "Davao High Priority Bus System (HPBS)",
           "description": "A comprehensive mass transit network featuring modern electric and Euro-5 diesel low-floor buses with wheelchair accessibility, smart card ticketing, and fixed stops.",
-          "target_impact": "Transforms public transit across 672 kilometers of urban and suburban routes with safe, reliable schedules."
+          "target_impact": "Transforms public transit across 672 kilometers of urban and suburban routes with safe, reliable schedules.",
+          "image": "/images/initiatives/init-mass-transit-traffic-0.jpg"
         },
         {
           "title": "Intelligent Traffic Management System (ITMS)",
           "description": "Sensor-based traffic signal controllers that automatically adjust green-light timing based on real-time vehicle density at major intersections.",
-          "target_impact": "Smoothes traffic flow along major corridors including McArthur Highway, JP Laurel, and Buhangin Road."
+          "target_impact": "Smoothes traffic flow along major corridors including McArthur Highway, JP Laurel, and Buhangin Road.",
+          "image": "/images/initiatives/init-mass-transit-traffic-1.jpg"
         },
         {
           "title": "Active Mobility: Protected Bike Lanes & Sidewalks",
           "description": "Developing dedicated, painted, and bollard-protected bicycle networks connecting residential subdivisions to schools and commercial hubs.",
-          "target_impact": "Provides safe, zero-emission commuting alternatives for thousands of daily cyclists and pedestrians."
+          "target_impact": "Provides safe, zero-emission commuting alternatives for thousands of daily cyclists and pedestrians.",
+          "image": "/images/initiatives/init-mass-transit-traffic-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -366,11 +513,24 @@
         "City Planning and Development Office (CPDO)"
       ],
       "civic_indicators": [
-        { "metric": "670+ km", "label": "Modern Bus Route Network", "description": "Covering the entire metropolitan corridor from Toril to Bunawan and Calinan." },
-        { "metric": "1,000+", "label": "Low-Emission Buses", "description": "Slated to replace obsolete public transport with air-conditioned comfort." },
-        { "metric": "100%", "label": "Wheelchair Accessible", "description": "Equipped with low-floor ramps and designated seats for PWDs and senior citizens." }
+        {
+          "metric": "670+ km",
+          "label": "Modern Bus Route Network",
+          "description": "Covering the entire metropolitan corridor from Toril to Bunawan and Calinan."
+        },
+        {
+          "metric": "1,000+",
+          "label": "Low-Emission Buses",
+          "description": "Slated to replace obsolete public transport with air-conditioned comfort."
+        },
+        {
+          "metric": "100%",
+          "label": "Wheelchair Accessible",
+          "description": "Equipped with low-floor ramps and designated seats for PWDs and senior citizens."
+        }
       ],
-      "citizen_action": "Commuters can follow CTTMO traffic advisory bulletins on social media for real-time updates on road re-routing, coastal road access, and scheduled lane maintenance."
+      "citizen_action": "Commuters can follow CTTMO traffic advisory bulletins on social media for real-time updates on road re-routing, coastal road access, and scheduled lane maintenance.",
+      "image": "/images/agenda/mass-transit-traffic.jpg"
     },
     {
       "number": 11,
@@ -384,17 +544,20 @@
         {
           "title": "Kadayawan Festival (The King of Festivals)",
           "description": "An annual month-long civic celebration featuring traditional tribal street dancing (Indak-Indak), floral float parades, indigenous music, and agricultural thanksgiving feasts.",
-          "target_impact": "Attracts hundreds of thousands of domestic and international visitors while celebrating authentic cultural heritage."
+          "target_impact": "Attracts hundreds of thousands of domestic and international visitors while celebrating authentic cultural heritage.",
+          "image": "/images/initiatives/init-culture-and-tourism-0.jpg"
         },
         {
           "title": "Permanent Kadayawan Tribal Village in Magsaysay Park",
           "description": "A living cultural sanctuary where authentic Lumad and Moro traditional houses are maintained year-round by tribal artisans offering cultural workshops and culinary tastings.",
-          "target_impact": "Provides sustainable livelihood for indigenous artisans and year-round cultural education for students."
+          "target_impact": "Provides sustainable livelihood for indigenous artisans and year-round cultural education for students.",
+          "image": "/images/initiatives/init-culture-and-tourism-1.jpg"
         },
         {
           "title": "Responsible Eco-Tourism & Marine Sanctuaries",
           "description": "Regulated eco-tours at the Philippine Eagle Center in Malagos, Eden Nature Park, and marine conservation zones in the Davao Gulf.",
-          "target_impact": "Generates green tourism revenue while strictly protecting natural habitats from commercial over-exploitation."
+          "target_impact": "Generates green tourism revenue while strictly protecting natural habitats from commercial over-exploitation.",
+          "image": "/images/initiatives/init-culture-and-tourism-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -403,11 +566,24 @@
         "Deputy Mayors for the 11 Ethnolinguistic Tribes"
       ],
       "civic_indicators": [
-        { "metric": "11 Tribes", "label": "Indigenous Cultures Honored", "description": "5 Lumad and 6 Moro tribes actively recognized and supported by municipal cultural policy." },
-        { "metric": "August", "label": "Kadayawan Month", "description": "The peak cultural and tourism period celebrating Davao's bountiful harvests." },
-        { "metric": "Free Entry", "label": "To Cultural Sanctuaries", "description": "Public parks and the Kadayawan Village remain open to the public year-round." }
+        {
+          "metric": "11 Tribes",
+          "label": "Indigenous Cultures Honored",
+          "description": "5 Lumad and 6 Moro tribes actively recognized and supported by municipal cultural policy."
+        },
+        {
+          "metric": "August",
+          "label": "Kadayawan Month",
+          "description": "The peak cultural and tourism period celebrating Davao's bountiful harvests."
+        },
+        {
+          "metric": "Free Entry",
+          "label": "To Cultural Sanctuaries",
+          "description": "Public parks and the Kadayawan Village remain open to the public year-round."
+        }
       ],
-      "citizen_action": "Visitors and residents can tour the Kadayawan Cultural Village in Magsaysay Park or visit Museo Dabawenyo on University Avenue to learn about Davao's pre-colonial and indigenous history."
+      "citizen_action": "Visitors and residents can tour the Kadayawan Cultural Village in Magsaysay Park or visit Museo Dabawenyo on University Avenue to learn about Davao's pre-colonial and indigenous history.",
+      "image": "/images/agenda/culture-and-tourism.jpg"
     },
     {
       "number": 12,
@@ -421,17 +597,20 @@
         {
           "title": "Central 911 Disaster & Rescue Divisions",
           "description": "Advanced urban search and rescue (USAR), high-angle extraction, collapse-structure canine teams, and amphibious watercraft ready for instantaneous deployment.",
-          "target_impact": "Provides rapid response to vehicular accidents, landslides, flash floods, and fires with zero delay."
+          "target_impact": "Provides rapid response to vehicular accidents, landslides, flash floods, and fires with zero delay.",
+          "image": "/images/initiatives/init-disaster-preparedness-0.jpg"
         },
         {
           "title": "Real-Time Automated Early Warning River Telemetry",
           "description": "Ultrasonic water level sensors and automated weather stations along the Davao, Talomo, and Lipadas river systems that transmit real-time telemetry to the CDRRMO command center.",
-          "target_impact": "Allows pre-emptive, orderly evacuations hours before river levels reach critical danger marks."
+          "target_impact": "Allows pre-emptive, orderly evacuations hours before river levels reach critical danger marks.",
+          "image": "/images/initiatives/init-disaster-preparedness-1.jpg"
         },
         {
           "title": "Barangay Disaster Risk Reduction Brigades (BDRRMC)",
           "description": "Training and equipping grassroots neighborhood responders with first-aid trauma kits, rescue boats, chainsaws, and satellite emergency radios.",
-          "target_impact": "Empowers local communities to act as effective first responders during the critical initial minutes of an emergency."
+          "target_impact": "Empowers local communities to act as effective first responders during the critical initial minutes of an emergency.",
+          "image": "/images/initiatives/init-disaster-preparedness-2.jpg"
         }
       ],
       "responsible_departments": [
@@ -440,11 +619,24 @@
         "Barangay Disaster Risk Reduction and Management Committees"
       ],
       "civic_indicators": [
-        { "metric": "₱826M+", "label": "Annual CDRRMO Allocation", "description": "Dedicated funding for emergency rescue vehicles, telemetry sensors, and relief stockpiles." },
-        { "metric": "24/7/365", "label": "Continuous Monitoring", "description": "Around-the-clock hydrologic and meteorological surveillance of all Davao river basins." },
-        { "metric": "Zero Cost", "label": "Emergency Evacuation & Aid", "description": "All emergency medical care, evacuation shelters, and relief food packs provided free." }
+        {
+          "metric": "₱826M+",
+          "label": "Annual CDRRMO Allocation",
+          "description": "Dedicated funding for emergency rescue vehicles, telemetry sensors, and relief stockpiles."
+        },
+        {
+          "metric": "24/7/365",
+          "label": "Continuous Monitoring",
+          "description": "Around-the-clock hydrologic and meteorological surveillance of all Davao river basins."
+        },
+        {
+          "metric": "Zero Cost",
+          "label": "Emergency Evacuation & Aid",
+          "description": "All emergency medical care, evacuation shelters, and relief food packs provided free."
+        }
       ],
-      "citizen_action": "In case of rising river waters, localized flooding, or geological emergencies, citizens should dial 911 immediately and monitor the official Davao CDRRMO advisory channels for evacuation orders."
+      "citizen_action": "In case of rising river waters, localized flooding, or geological emergencies, citizens should dial 911 immediately and monitor the official Davao CDRRMO advisory channels for evacuation orders.",
+      "image": "/images/agenda/disaster-preparedness.jpg"
     }
   ]
 }

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import AccessibilityControls from "./AccessibilityControls";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,6 +64,9 @@ export default function Navbar() {
 
           {/* Emergency 911 CTA & Mobile Button */}
           <div className="flex items-center gap-3">
+            <div className="hidden sm:block">
+              <AccessibilityControls />
+            </div>
             <a
               href="tel:911"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-black shadow-sm hover:shadow transition"
@@ -116,6 +120,9 @@ export default function Navbar() {
               </Link>
             );
           })}
+          <div className="pt-3 pb-2 border-t border-slate-100 mt-2">
+            <AccessibilityControls />
+          </div>
         </div>
       )}
     </header>

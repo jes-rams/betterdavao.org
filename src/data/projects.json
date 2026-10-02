@@ -4,37 +4,45 @@
     "ongoing": [
       {
         "name": "Davao City Bypass Construction Project",
-        "description": "45.5-kilometer project connecting Toril to Panabo City with the Philippines' first long-distance mountain tunnel."
+        "description": "45.5-kilometer project connecting Toril to Panabo City with the Philippines' first long-distance mountain tunnel.",
+        "image": "/images/projects/proj-ongoing-0.jpg"
       },
       {
         "name": "Samal Island–Davao City Connector (SIDC) Bridge",
-        "description": "3.98-kilometer, four-lane extradosed bridge project linking Davao City and Samal."
+        "description": "3.98-kilometer, four-lane extradosed bridge project linking Davao City and Samal.",
+        "image": "/images/projects/proj-ongoing-1.jpg"
       },
       {
         "name": "Davao Public Transport Modernization Project (DPTMP) / HPBS",
-        "description": "Establishing a modern bus-based public transport system with a 672-kilometer network and 1,100 buses (electric and Euro-V diesel). Partial operations expected in 2026."
+        "description": "Establishing a modern bus-based public transport system with a 672-kilometer network and 1,100 buses (electric and Euro-V diesel). Partial operations expected in 2026.",
+        "image": "/images/projects/proj-ongoing-2.jpg"
       },
       {
         "name": "Davao International Airport Modernization",
-        "description": "Upgrades to the airport including passenger terminal building expansion."
+        "description": "Upgrades to the airport including passenger terminal building expansion.",
+        "image": "/images/projects/proj-ongoing-3.jpg"
       },
       {
         "name": "Davao City Coastal Road",
-        "description": "17.8-kilometer bypass road designed to decongest city proper, act as storm-surge barrier, and serve as public promenade. Segments A, B, C are operational/near completion."
+        "description": "17.8-kilometer bypass road designed to decongest city proper, act as storm-surge barrier, and serve as public promenade. Segments A, B, C are operational/near completion.",
+        "image": "/images/projects/proj-ongoing-4.jpg"
       },
       {
         "name": "Waste-to-Energy (WTE) Plant",
-        "description": "Proposed facility in Tugbok District designed to process 600 tons of solid waste daily, generating 11 MW of electricity. Estimated cost ₱5B-₱7B."
+        "description": "Proposed facility in Tugbok District designed to process 600 tons of solid waste daily, generating 11 MW of electricity. Estimated cost ₱5B-₱7B.",
+        "image": "/images/projects/proj-ongoing-5.jpg"
       }
     ],
     "completed": [
       {
         "name": "Local Infrastructure Projects",
-        "description": "740 infrastructure projects completed between 2020 and 2024 including roads, bridges, irrigation, and public buildings."
+        "description": "740 infrastructure projects completed between 2020 and 2024 including roads, bridges, irrigation, and public buildings.",
+        "image": "/images/projects/proj-completed-0.jpg"
       },
       {
         "name": "Flood Control Initiatives",
-        "description": "Revetment walls and river embankments along the Talomo River."
+        "description": "Revetment walls and river embankments along the Talomo River.",
+        "image": "/images/projects/proj-completed-1.jpg"
       }
     ]
   }

@@ -52,13 +52,19 @@ export default async function AgendaDetailPage({ params }: PageProps) {
         </div>
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white py-16 px-4 sm:px-8">
-          <div className="max-w-5xl mx-auto space-y-6">
+        <section className="relative overflow-hidden bg-slate-900 text-white py-20 px-4 sm:px-8">
+          {pillar.image && (
+            <div className="absolute inset-0 z-0">
+              <img src={pillar.image} alt={pillar.title} className="w-full h-full object-cover opacity-30 mix-blend-overlay" />
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-blue-950/80 to-slate-900"></div>
+            </div>
+          )}
+          <div className="max-w-5xl mx-auto space-y-6 relative z-10">
             <div className="flex items-center gap-3">
-              <span className="w-12 h-12 rounded-xl bg-blue-600 text-amber-300 flex items-center justify-center font-black text-2xl shadow-md">
+              <span className="w-12 h-12 rounded-xl bg-blue-600/80 backdrop-blur-sm text-amber-300 flex items-center justify-center font-black text-2xl shadow-md">
                 {pillar.number}
               </span>
-              <span className="inline-block px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30 text-xs font-bold uppercase tracking-wider">
+              <span className="inline-block px-3.5 py-1 rounded-full bg-blue-500/20 backdrop-blur-sm text-blue-300 border border-blue-400/30 text-xs font-bold uppercase tracking-wider">
                 Priority Development Pillar #{pillar.number}
               </span>
             </div>
@@ -103,29 +109,36 @@ export default async function AgendaDetailPage({ params }: PageProps) {
               Key Municipal Initiatives &amp; Programs
             </h2>
             <div className="space-y-6">
-              {pillar.key_initiatives.map((item, idx) => (
+              {pillar.key_initiatives.map((item: any, idx: number) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs hover:border-blue-300 transition-colors space-y-4"
+                  className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-xs hover:border-blue-300 hover:shadow-md transition-all flex flex-col sm:flex-row group"
                 >
-                  <div className="flex items-start gap-4">
-                    <span className="w-8 h-8 rounded-lg bg-blue-50 text-blue-700 flex items-center justify-center font-black text-sm shrink-0">
-                      {idx + 1}
-                    </span>
-                    <div className="flex-1">
-                      <h3 className="text-xl font-bold text-slate-900 mb-2">
-                        {item.title}
-                      </h3>
-                      <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                        {item.description}
-                      </p>
-                      <div className="bg-blue-50/70 border border-blue-100 rounded-xl p-3.5 flex items-start gap-2.5">
-                        <span className="text-xs font-bold uppercase text-blue-800 tracking-wider shrink-0 mt-0.5">
-                          Target Impact:
-                        </span>
-                        <span className="text-xs text-blue-900 font-medium leading-relaxed">
-                          {item.target_impact}
-                        </span>
+                  {item.image && (
+                    <div className="w-full sm:w-1/3 md:w-1/4 h-48 sm:h-auto bg-slate-200 shrink-0 overflow-hidden relative">
+                      <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                  )}
+                  <div className="p-6 sm:p-8 flex-1 flex flex-col justify-center">
+                    <div className="flex items-start gap-4">
+                      <span className="w-8 h-8 rounded-lg bg-blue-50 text-blue-700 flex items-center justify-center font-black text-sm shrink-0">
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">
+                          {item.title}
+                        </h3>
+                        <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                          {item.description}
+                        </p>
+                        <div className="bg-blue-50/70 border border-blue-100 rounded-xl p-3.5 flex items-start gap-2.5">
+                          <span className="text-xs font-bold uppercase text-blue-800 tracking-wider shrink-0 mt-0.5">
+                            Target Impact:
+                          </span>
+                          <span className="text-xs text-blue-900 font-medium leading-relaxed">
+                            {item.target_impact}
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>

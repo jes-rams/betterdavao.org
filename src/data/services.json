@@ -17,7 +17,8 @@
       "tracking_url": "https://appbts.davaocity.gov.ph/tracking",
       "status": "Online Service",
       "department": "Business Bureau",
-      "tip": "Track existing permit applications in real-time using your application reference code."
+      "tip": "Track existing permit applications in real-time using your application reference code.",
+      "image": "/images/services/srv-ebpls.jpg"
     },
     {
       "id": "obps",
@@ -29,7 +30,8 @@
       "tracking_url": "https://obps.davaocity.gov.ph/applicationstatus/",
       "status": "Online Service",
       "department": "Office of the City Building Official",
-      "tip": "Check structural and architectural clearance statuses directly from the tracking dashboard."
+      "tip": "Check structural and architectural clearance statuses directly from the tracking dashboard.",
+      "image": "/images/services/srv-obps.jpg"
     },
     {
       "id": "cedula",
@@ -40,7 +42,8 @@
       "action_url": "https://cedula.davaocity.gov.ph/Home/",
       "status": "Online Service",
       "department": "City Treasurer's Office",
-      "tip": "Generate your payment reference code before heading to authorized payment windows."
+      "tip": "Generate your payment reference code before heading to authorized payment windows.",
+      "image": "/images/services/srv-cedula.jpg"
     },
     {
       "id": "online-payments",
@@ -51,7 +54,8 @@
       "action_url": "https://davaocity.gov.ph/services/online-payments/",
       "status": "Informational & Payment",
       "department": "City Treasurer's Office",
-      "tip": "Early bird payment discounts are typically announced during the first quarter of the fiscal year."
+      "tip": "Early bird payment discounts are typically announced during the first quarter of the fiscal year.",
+      "image": "/images/services/srv-online-payments.jpg"
     },
     {
       "id": "lingap",
@@ -62,7 +66,8 @@
       "action_url": "https://davaocity.gov.ph/services/social-services/",
       "status": "Assistance Program",
       "department": "City Social Welfare and Development Office (CSWDO)",
-      "tip": "Bring valid government ID, medical abstract, and hospital billing statement to expedite processing."
+      "tip": "Bring valid government ID, medical abstract, and hospital billing statement to expedite processing.",
+      "image": "/images/services/srv-lingap.jpg"
     },
     {
       "id": "civil-registry",
@@ -73,7 +78,8 @@
       "action_url": "https://davaocity.gov.ph/services/civil-registry-services/",
       "status": "Citizen Records",
       "department": "City Civil Registrar's Office",
-      "tip": "Appointments can be scheduled ahead to avoid long lines during peak hours."
+      "tip": "Appointments can be scheduled ahead to avoid long lines during peak hours.",
+      "image": "/images/services/srv-civil-registry.jpg"
     },
     {
       "id": "careers",
@@ -84,7 +90,8 @@
       "action_url": "https://davaocity.gov.ph/services/career-opportunities/",
       "status": "Job Openings",
       "department": "Human Resource Management Office (HRMO)",
-      "tip": "Review CSC eligibility requirements and submission deadlines before submitting your PDS."
+      "tip": "Review CSC eligibility requirements and submission deadlines before submitting your PDS.",
+      "image": "/images/services/srv-careers.jpg"
     },
     {
       "id": "council-sp",
@@ -95,7 +102,8 @@
       "action_url": "https://sp.davaocity.gov.ph/",
       "status": "Legislative Records",
       "department": "Sangguniang Panlungsod (21st City Council)",
-      "tip": "Search public hearing notices to participate in local policy discussions."
+      "tip": "Search public hearing notices to participate in local policy discussions.",
+      "image": "/images/services/srv-council-sp.jpg"
     }
   ]
 }

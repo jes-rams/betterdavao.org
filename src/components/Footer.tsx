@@ -142,16 +142,6 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/sensui.ramos"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-white transition"
-                >
-                  Lead Maintainer (Facebook) &rarr;
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://davaocity.gov.ph"
                   target="_blank"
                   rel="noreferrer"
@@ -166,12 +156,18 @@ export default function Footer() {
 
         {/* Disclaimer & Copyright */}
         <div className="mt-12 pt-8 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>
-            Better Davao City is a community-run public interest project. Not affiliated with or operated by the 
-            City Government of Davao. All datasets cited from public disclosures and official publications.
-          </p>
-          <p className="shrink-0">
-            Open Source under MIT License &bull; Davao City, Philippines
+          <div className="space-y-2">
+            <p>
+              Better Davao City is a community-run public interest project. Not affiliated with or operated by the 
+              City Government of Davao. All datasets cited from public disclosures and official publications.
+            </p>
+            <div className="flex items-center gap-4">
+              <Link href="/terms" className="hover:text-white transition">Terms &amp; Conditions</Link>
+              <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
+            </div>
+          </div>
+          <p className="shrink-0 text-right">
+            Open Source under MIT License<br/>Davao City, Philippines
           </p>
         </div>
       </div>

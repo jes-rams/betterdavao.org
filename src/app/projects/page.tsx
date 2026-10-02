@@ -80,36 +80,43 @@ export default function ProjectsPage() {
             return (
               <div
                 key={idx}
-                className="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition flex flex-col justify-between"
+                className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition flex flex-col justify-between overflow-hidden"
               >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span
-                      className={`text-[11px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider ${
-                        isOngoing
-                          ? "bg-amber-100 text-amber-900 border border-amber-200"
-                          : "bg-emerald-100 text-emerald-900 border border-emerald-200"
-                      }`}
-                    >
-                      {project.status}
-                    </span>
-                    <span className="text-xs text-slate-400 font-medium">
-                      Project #{idx + 1}
-                    </span>
+                {(project as any).image && (
+                  <div className="w-full h-48 bg-slate-200 overflow-hidden relative border-b border-slate-100">
+                    <img src={(project as any).image} alt={project.name} className="w-full h-full object-cover" />
+                  </div>
+                )}
+                <div className="p-6 sm:p-7 flex flex-col flex-1 justify-between">
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <span
+                        className={`text-[11px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider ${
+                          isOngoing
+                            ? "bg-amber-100 text-amber-900 border border-amber-200"
+                            : "bg-emerald-100 text-emerald-900 border border-emerald-200"
+                        }`}
+                      >
+                        {project.status}
+                      </span>
+                      <span className="text-xs text-slate-400 font-medium">
+                        Project #{idx + 1}
+                      </span>
+                    </div>
+
+                    <h2 className="text-xl font-bold text-slate-900 leading-snug">
+                      {project.name}
+                    </h2>
+
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      {project.description}
+                    </p>
                   </div>
 
-                  <h2 className="text-xl font-bold text-slate-900 leading-snug">
-                    {project.name}
-                  </h2>
-
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    {project.description}
-                  </p>
-                </div>
-
-                <div className="pt-4 mt-6 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
-                  <span>Location: Davao City Metropolitan Area</span>
-                  <span className="text-blue-700 font-semibold">Priority Initiative</span>
+                  <div className="pt-4 mt-6 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
+                    <span>Location: Davao City Metropolitan Area</span>
+                    <span className="text-blue-700 font-semibold">Priority Initiative</span>
+                  </div>
                 </div>
               </div>
             );

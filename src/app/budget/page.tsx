@@ -13,16 +13,22 @@ export default function BudgetPage() {
 
       <main className="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
         {/* Header Section */}
-        <section className="text-center max-w-3xl mx-auto space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider mb-2">
-            Civic Transparency
+        <section className="relative py-16 text-center w-full px-4 rounded-3xl overflow-hidden bg-slate-900 text-white shadow-xl">
+          <div className="absolute inset-0 z-0">
+            <img src="/images/landmarks/davao-city-hall.jpg" alt="Davao City Hall" className="w-full h-full object-cover opacity-20 mix-blend-overlay" />
+            <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 to-blue-950/90"></div>
           </div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
-            Davao City Fiscal Transparency &amp; Public Funds Overview
-          </h1>
-          <p className="text-lg text-slate-600 leading-relaxed">
-            Every peso in the city budget comes from taxpayers like you. Here is a clear, plain-language breakdown of the {budget2024.amount_formatted} budget for {budget2024.year}, explaining where public money goes and how it serves the Dabawenyos.
-          </p>
+          <div className="relative z-10 max-w-3xl mx-auto space-y-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-900/50 border border-blue-400/30 text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">
+              Civic Transparency
+            </div>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
+              Davao City Fiscal Transparency &amp; Public Funds Overview
+            </h1>
+            <p className="text-lg text-blue-100 leading-relaxed">
+              Every peso in the city budget comes from taxpayers like you. Here is a clear, plain-language breakdown of the {budget2024.amount_formatted} budget for {budget2024.year}, explaining where public money goes and how it serves the Dabawenyos.
+            </p>
+          </div>
         </section>
 
         {/* Year-over-Year Growth Comparison */}
@@ -150,8 +156,12 @@ export default function BudgetPage() {
         {/* Citizen Participation & Accountability */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Citizen Guide */}
-          <div className="bg-blue-900 text-white p-8 rounded-2xl shadow-md">
-            <h3 className="text-2xl font-bold mb-4">Citizen Participation Guide</h3>
+          <div className="relative bg-blue-900 text-white p-8 rounded-2xl shadow-md overflow-hidden">
+            <div className="absolute inset-0 z-0">
+              <img src="/images/landmarks/kadayawan-festival.jpg" alt="Kadayawan" className="w-full h-full object-cover opacity-10 mix-blend-overlay" />
+            </div>
+            <div className="relative z-10">
+              <h3 className="text-2xl font-bold mb-4">Citizen Participation Guide</h3>
             <p className="text-blue-200 mb-6">Your tax money, your voice. Here are ways you can participate in local governance and monitor public funds:</p>
             <ul className="space-y-4">
               <li className="flex gap-3">
@@ -176,6 +186,7 @@ export default function BudgetPage() {
                 </div>
               </li>
             </ul>
+            </div>
           </div>
 
           {/* Accountability block */}

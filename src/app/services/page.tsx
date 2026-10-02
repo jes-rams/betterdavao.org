@@ -104,58 +104,65 @@ export default function ServicesPage() {
         {/* Services Grid */}
         {filteredServices.length > 0 ? (
           <div className="grid md:grid-cols-2 gap-6">
-            {filteredServices.map((service) => (
+            {filteredServices.map((service: any) => (
               <div
                 key={service.id}
-                className="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition flex flex-col justify-between"
+                className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition flex flex-col justify-between overflow-hidden"
               >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between gap-2">
-                    <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-blue-50 text-blue-800 border border-blue-100 uppercase tracking-wide">
-                      {service.category}
-                    </span>
-                    <span className="text-[11px] font-medium text-slate-500">
-                      {service.department}
-                    </span>
+                {service.image && (
+                  <div className="w-full h-40 bg-slate-200 overflow-hidden relative border-b border-slate-100">
+                    <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+                  </div>
+                )}
+                <div className="p-6 sm:p-7 flex flex-col flex-1 justify-between">
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-blue-50 text-blue-800 border border-blue-100 uppercase tracking-wide">
+                        {service.category}
+                      </span>
+                      <span className="text-[11px] font-medium text-slate-500">
+                        {service.department}
+                      </span>
+                    </div>
+
+                    <h2 className="text-xl font-bold text-slate-900 leading-snug">
+                      {service.title}
+                    </h2>
+
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      {service.short_description}
+                    </p>
+
+                    {service.tip && (
+                      <div className="bg-amber-50/70 border border-amber-200/80 rounded-lg p-3 text-xs text-amber-900 flex items-start gap-2">
+                        <span className="font-bold shrink-0">💡 Citizen Tip:</span>
+                        <span>{service.tip}</span>
+                      </div>
+                    )}
                   </div>
 
-                  <h2 className="text-xl font-bold text-slate-900 leading-snug">
-                    {service.title}
-                  </h2>
-
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    {service.short_description}
-                  </p>
-
-                  {service.tip && (
-                    <div className="bg-amber-50/70 border border-amber-200/80 rounded-lg p-3 text-xs text-amber-900 flex items-start gap-2">
-                      <span className="font-bold shrink-0">💡 Citizen Tip:</span>
-                      <span>{service.tip}</span>
-                    </div>
-                  )}
-                </div>
-
-                {/* Action Buttons */}
-                <div className="pt-6 mt-4 border-t border-slate-100 flex flex-wrap items-center gap-3">
-                  <a
-                    href={service.action_url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-900 hover:bg-blue-800 text-white font-bold text-xs shadow-sm transition"
-                  >
-                    {service.action_label} &rarr;
-                  </a>
-
-                  {service.tracking_url && (
+                  {/* Action Buttons */}
+                  <div className="pt-6 mt-4 border-t border-slate-100 flex flex-wrap items-center gap-3">
                     <a
-                      href={service.tracking_url}
+                      href={service.action_url}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs border border-slate-200 transition"
+                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-900 hover:bg-blue-800 text-white font-bold text-xs shadow-sm transition"
                     >
-                      Track Application
+                      {service.action_label} &rarr;
                     </a>
-                  )}
+
+                    {service.tracking_url && (
+                      <a
+                        href={service.tracking_url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs border border-slate-200 transition"
+                      >
+                        Track Application
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}
