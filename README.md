@@ -37,3 +37,7 @@ The data presented on this portal is gathered from publicly available sources in
 
 ## Contributing
 We welcome contributions! If you are from Davao and want to help keep the data up to date or improve the UI, feel free to fork this repository and submit a pull request.
+
+## Maintainer
+- **Lead Maintainer**: [@jes-rams](https://github.com/jes-rams) ([Facebook](https://www.facebook.com/sensui.ramos))
+- **Live Website**: [https://betterdavao.org](https://betterdavao.org)
