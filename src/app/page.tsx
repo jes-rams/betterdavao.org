@@ -14,6 +14,10 @@ export default function Home() {
       {/* Hero Section */}
       <header className="bg-blue-900 text-white py-20 px-6 sm:px-12">
         <div className="max-w-5xl mx-auto">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-semibold uppercase tracking-wider mb-4">
+            <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+            Work in Progress
+          </div>
           <h1 className="text-5xl font-extrabold tracking-tight mb-4">
             Better Davao City
           </h1>
