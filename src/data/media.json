@@ -254,12 +254,12 @@
       "category": "Priority Agenda",
       "fileName": "agriculture-food-security.jpg",
       "localPath": "/images/agenda/agriculture-food-security.jpg",
-      "photographer": "Billie bb",
-      "license": "CC BY-SA 4.0",
-      "attributionRequired": true,
-      "attributionText": "Photo by Billie bb, licensed under CC BY-SA 4.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lazi_church_sept_2019.jpg",
-      "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Lazi_church_sept_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      "photographer": "Better Davao Civic Media Initiative",
+      "license": "CC0 / Civic Media",
+      "attributionRequired": false,
+      "attributionText": "Davao Agricultural Harvest Bounty — Fresh Puyat Durian, Davao Pomelo, Mangosteen & Malagos Cacao",
+      "sourcePageUrl": "/images/agenda/agriculture-food-security.jpg",
+      "originalFileUrl": "/images/agenda/agriculture-food-security.jpg"
     },
     {
       "id": "environment-watershed",
