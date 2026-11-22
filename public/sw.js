@@ -1,4 +1,4 @@
-const CACHE_NAME = "betterdavao-v1";
+const CACHE_NAME = "betterdavao-v2";
 const OFFLINE_URLS = [
   "/",
   "/services",
