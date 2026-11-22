@@ -4,8 +4,10 @@ import { useState, useMemo } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import servicesData from "@/data/services.json";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function ServicesPage() {
+  const { language } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const [searchQuery, setSearchQuery] = useState<string>("");
 
@@ -23,22 +25,27 @@ export default function ServicesPage() {
     });
   }, [selectedCategory, searchQuery]);
 
+  const handlePrint = (serviceTitle: string) => {
+    window.print();
+  };
+
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 flex flex-col font-sans transition-colors duration-200">
       <Navbar />
 
       {/* Header */}
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-950 text-white py-14 sm:py-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-br from-blue-950 via-slate-900 to-indigo-950 text-white py-14 sm:py-16 px-4 sm:px-6 lg:px-8 border-b border-blue-900/40">
         <div className="max-w-5xl mx-auto text-center space-y-4">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-semibold uppercase tracking-wider">
-            Verified Municipal Portals
+          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-bold uppercase tracking-wider">
+            {language === "ceb" ? "Gipanghimatuod nga mga Portal" : "Verified Municipal E-Portals"}
           </span>
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
-            Davao City Citizen E-Services Directory
+          <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
+            {language === "ceb" ? "Direktoryo sa mga Online Serbisyo sa Davao" : "Davao City Citizen E-Services Directory"}
           </h1>
-          <p className="text-base sm:text-lg text-blue-100/90 max-w-2xl mx-auto">
-            Direct, verified links to official online licensing portals, building permits, tax payments, 
-            civil registry documents, and social assistance services.
+          <p className="text-base sm:text-lg text-blue-100/90 max-w-2xl mx-auto font-light">
+            {language === "ceb"
+              ? "Diretsong mga link sa online business permits (eBPLS), building clearance, cedula, bayad sa buhis, ug Lingap assistance."
+              : "Direct, verified links to official online licensing portals, building permits, tax payments, civil registry documents, and social assistance services."}
           </p>
 
           {/* Search Box */}
@@ -46,10 +53,10 @@ export default function ServicesPage() {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search services (e.g. business permit, cedula, lingap, civil registry)..."
+                placeholder={language === "ceb" ? "Pangitaa ang serbisyo (e.g. business permit, cedula, lingap)..." : "Search services (e.g. business permit, cedula, lingap, civil registry)..."}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-5 py-3.5 pl-12 rounded-xl bg-white text-slate-900 placeholder-slate-400 shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-400 text-sm"
+                className="w-full px-5 py-3.5 pl-12 rounded-xl bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-400 shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-400 text-sm border border-slate-200 dark:border-slate-700"
               />
               <svg
                 className="w-5 h-5 text-slate-400 absolute left-4 top-4"
@@ -79,8 +86,8 @@ export default function ServicesPage() {
               onClick={() => setSelectedCategory(cat)}
               className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 selectedCategory === cat
-                  ? "bg-blue-900 text-white shadow-sm"
-                  : "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200"
+                  ? "bg-blue-600 text-white shadow-xs"
+                  : "bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800"
               }`}
             >
               {cat}
@@ -89,12 +96,12 @@ export default function ServicesPage() {
         </div>
 
         {/* Results Counter */}
-        <div className="flex items-center justify-between text-xs sm:text-sm text-slate-500 font-medium px-1">
+        <div className="flex items-center justify-between text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium px-1">
           <span>Showing {filteredServices.length} citizen service{filteredServices.length !== 1 ? "s" : ""}</span>
           {searchQuery && (
             <button
               onClick={() => setSearchQuery("")}
-              className="text-blue-600 hover:underline"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
             >
               Clear search
             </button>
@@ -107,34 +114,34 @@ export default function ServicesPage() {
             {filteredServices.map((service: any) => (
               <div
                 key={service.id}
-                className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition flex flex-col justify-between overflow-hidden"
+                className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-blue-400 dark:hover:border-blue-500 transition flex flex-col justify-between overflow-hidden"
               >
                 {service.image && (
-                  <div className="w-full h-40 bg-slate-200 overflow-hidden relative border-b border-slate-100">
-                    <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+                  <div className="w-full h-44 bg-slate-200 dark:bg-slate-800 overflow-hidden relative border-b border-slate-100 dark:border-slate-800">
+                    <img src={service.image} alt={service.title} className="w-full h-full object-cover hover:scale-105 transition duration-300" />
                   </div>
                 )}
-                <div className="p-6 sm:p-7 flex flex-col flex-1 justify-between">
+                <div className="p-6 sm:p-7 flex flex-col flex-1 justify-between space-y-4">
                   <div className="space-y-3">
                     <div className="flex items-center justify-between gap-2">
-                      <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-blue-50 text-blue-800 border border-blue-100 uppercase tracking-wide">
+                      <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-blue-50 dark:bg-blue-950 text-blue-800 dark:text-blue-300 border border-blue-100 dark:border-blue-900 uppercase tracking-wide">
                         {service.category}
                       </span>
-                      <span className="text-[11px] font-medium text-slate-500">
+                      <span className="text-[11px] font-medium text-slate-500 dark:text-slate-400">
                         {service.department}
                       </span>
                     </div>
 
-                    <h2 className="text-xl font-bold text-slate-900 leading-snug">
+                    <h2 className="text-xl font-bold text-slate-900 dark:text-white leading-snug">
                       {service.title}
                     </h2>
 
-                    <p className="text-sm text-slate-600 leading-relaxed">
+                    <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                       {service.short_description}
                     </p>
 
                     {service.tip && (
-                      <div className="bg-amber-50/70 border border-amber-200/80 rounded-lg p-3 text-xs text-amber-900 flex items-start gap-2">
+                      <div className="bg-amber-50/80 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900 rounded-xl p-3 text-xs text-amber-900 dark:text-amber-200 flex items-start gap-2">
                         <span className="font-bold shrink-0">💡 Citizen Tip:</span>
                         <span>{service.tip}</span>
                       </div>
@@ -142,12 +149,12 @@ export default function ServicesPage() {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="pt-6 mt-4 border-t border-slate-100 flex flex-wrap items-center gap-3">
+                  <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center gap-2.5">
                     <a
                       href={service.action_url}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-900 hover:bg-blue-800 text-white font-bold text-xs shadow-sm transition"
+                      className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-xs transition"
                     >
                       {service.action_label} &rarr;
                     </a>
@@ -157,26 +164,34 @@ export default function ServicesPage() {
                         href={service.tracking_url}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs border border-slate-200 transition"
+                        className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs border border-slate-200 dark:border-slate-700 transition"
                       >
-                        Track Application
+                        Track Status
                       </a>
                     )}
+
+                    <button
+                      onClick={() => handlePrint(service.title)}
+                      className="inline-flex items-center gap-1 px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-400 text-xs font-semibold border border-slate-200 dark:border-slate-700 transition"
+                      title="Print Service Guide / Checklist"
+                    >
+                      🖨️ Print Checklist
+                    </button>
                   </div>
                 </div>
               </div>
             ))}
           </div>
         ) : (
-          <div className="text-center py-16 bg-white rounded-2xl border border-slate-200 space-y-3">
-            <p className="text-lg font-bold text-slate-700">No services found matching your query</p>
-            <p className="text-sm text-slate-500">Try searching for keywords like "permit", "payment", or "hotline".</p>
+          <div className="text-center py-16 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 space-y-3">
+            <p className="text-lg font-bold text-slate-700 dark:text-slate-300">No services found matching your query</p>
+            <p className="text-sm text-slate-500 dark:text-slate-400">Try searching for keywords like "permit", "payment", or "hotline".</p>
             <button
               onClick={() => {
                 setSearchQuery("");
                 setSelectedCategory("All");
               }}
-              className="mt-2 px-4 py-2 rounded-xl bg-blue-900 text-white text-xs font-bold"
+              className="mt-2 px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold"
             >
               Reset Filters
             </button>

@@ -7,12 +7,12 @@ export default function AgendaIndexPage() {
   const { title, description, pillars } = agendaData;
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-800">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col font-sans text-slate-800 dark:text-slate-100 transition-colors duration-200">
       <Navbar />
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-slate-950 via-slate-900 to-blue-950 text-white pt-20 pb-16 px-4 sm:px-8">
+        <section className="bg-gradient-to-b from-slate-950 via-slate-900 to-blue-950 text-white pt-20 pb-16 px-4 sm:px-8 border-b border-blue-900/40">
           <div className="max-w-5xl mx-auto text-center space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 text-xs font-bold uppercase tracking-wider">
               Strategic Governance Roadmap
@@ -31,10 +31,10 @@ export default function AgendaIndexPage() {
         {/* 12 Pillars Grid */}
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-16 space-y-12">
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-3xl font-extrabold text-slate-900 mb-3">
+            <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-3">
               Explore the 12 Priority Development Pillars
             </h2>
-            <p className="text-slate-600">
+            <p className="text-slate-600 dark:text-slate-400">
               Select any development pillar to inspect the municipal initiatives, responsible departments, budget indicators, and citizen monitoring guides.
             </p>
           </div>
@@ -44,11 +44,11 @@ export default function AgendaIndexPage() {
               <Link
                 key={pillar.number}
                 href={`/agenda/${pillar.slug}`}
-                className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group flex flex-col justify-between"
+                className="bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-xs hover:shadow-xl hover:border-blue-400 dark:hover:border-blue-500 transition-all duration-300 group flex flex-col justify-between"
               >
                 <div>
                   {pillar.image && (
-                    <div className="w-full h-40 overflow-hidden bg-slate-200 relative mb-4">
+                    <div className="w-full h-40 overflow-hidden bg-slate-200 dark:bg-slate-800 relative mb-4">
                       <img 
                         src={pillar.image} 
                         alt={pillar.title} 
@@ -59,30 +59,30 @@ export default function AgendaIndexPage() {
                   )}
                   <div className="px-6 pt-6">
                     <div className="flex items-center justify-between mb-4">
-                      <span className="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-black text-lg group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                      <span className="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 flex items-center justify-center font-black text-lg group-hover:bg-blue-600 group-hover:text-white transition-colors">
                         {pillar.number}
                       </span>
-                      <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                      <span className="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">
                         Pillar #{pillar.number}
                       </span>
                     </div>
 
-                    <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                       {pillar.title}
                     </h3>
 
-                    <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3" title={pillar.summary}>
+                    <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 line-clamp-3" title={pillar.summary}>
                       {pillar.summary}
                     </p>
                   </div>
                 </div>
 
                 <div className="px-6 pb-6 mt-auto">
-                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                    <span className="text-xs text-slate-400 font-medium truncate max-w-[60%]">
+                  <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                    <span className="text-xs text-slate-400 dark:text-slate-500 font-medium truncate max-w-[60%]">
                       {pillar.responsible_departments?.[0] || "City Government"}
                     </span>
-                    <span className="text-sm font-bold text-blue-700 group-hover:underline inline-flex items-center gap-1 whitespace-nowrap">
+                    <span className="text-sm font-bold text-blue-700 dark:text-blue-400 group-hover:underline inline-flex items-center gap-1 whitespace-nowrap">
                       Inspect &rarr;
                     </span>
                   </div>
@@ -97,7 +97,7 @@ export default function AgendaIndexPage() {
               Connect the Agenda with the Public Budget
             </h3>
             <p className="text-blue-200 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-              Every priority in the 12-Point Agenda is funded through Davao City's ₱12.7B annual municipal budget and the Annual Development Fund (ADF).
+              Every priority in the 12-Point Agenda is funded through Davao City&apos;s ₱12.7B annual municipal budget and the Annual Development Fund (ADF).
             </p>
             <div className="pt-2">
               <Link
