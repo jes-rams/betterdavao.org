@@ -33,16 +33,16 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             {/* Brand Logo & WIP Tag */}
             <div className="flex items-center gap-3">
-              <Link href="/" className="flex items-center gap-2 group">
-                <span className="w-9 h-9 rounded-lg bg-blue-900 dark:bg-blue-600 text-amber-400 flex items-center justify-center font-black text-xl shadow-xs group-hover:scale-105 transition-transform">
+              <Link href="/" className="flex items-center gap-2.5 group">
+                <span className="w-10 h-10 rounded-xl bg-[#060d17] text-amber-400 border border-amber-500/40 flex items-center justify-center font-serif-civic font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
                   D
                 </span>
                 <div>
-                  <span className="font-extrabold text-base sm:text-lg tracking-tight text-slate-900 dark:text-white block leading-tight">
+                  <span className="font-serif-civic font-normal text-lg sm:text-xl tracking-tight text-slate-900 dark:text-white block leading-tight">
                     Better Davao
                   </span>
-                  <span className="text-[10px] font-semibold text-blue-700 dark:text-blue-400 block tracking-wider uppercase">
-                    Civic Portal
+                  <span className="telemetry-tag text-[9px] text-amber-700 dark:text-amber-400 block tracking-widest">
+                    CIVIC DATA REPOSITORY
                   </span>
                 </div>
               </Link>

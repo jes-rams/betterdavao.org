@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, ReactNode } from "react";
 import { useLanguage } from "@/context/LanguageContext";
+import { Landmark, Building2, Mountain, ShieldAlert } from "lucide-react";
 
 interface CounterProps {
   end: number;
@@ -10,7 +11,7 @@ interface CounterProps {
   decimals?: number;
   label: string;
   sublabel: string;
-  icon: string;
+  icon: ReactNode;
 }
 
 function CounterItem({ end, prefix = "", suffix = "", decimals = 0, label, sublabel, icon }: CounterProps) {
@@ -18,7 +19,7 @@ function CounterItem({ end, prefix = "", suffix = "", decimals = 0, label, subla
 
   useEffect(() => {
     let startTime: number | null = null;
-    const duration = 1800; // ms
+    const duration = 1600; // ms
 
     const step = (timestamp: number) => {
       if (!startTime) startTime = timestamp;
@@ -36,8 +37,8 @@ function CounterItem({ end, prefix = "", suffix = "", decimals = 0, label, subla
   }, [end]);
 
   return (
-    <div className="bg-slate-900/90 border border-slate-700/80 hover:border-blue-500/60 p-4 sm:p-5 rounded-2xl shadow-lg flex items-center gap-3.5 transition-all duration-200">
-      <div className="w-12 h-12 rounded-xl bg-blue-950 border border-blue-800/80 flex items-center justify-center text-2xl shrink-0 shadow-inner">
+    <div className="bg-slate-900/95 border border-slate-800 hover:border-amber-500/50 p-4 sm:p-5 rounded-2xl shadow-xl flex items-center gap-3.5 transition-all duration-300 group">
+      <div className="w-12 h-12 rounded-xl bg-slate-950 border border-slate-800 text-amber-400 group-hover:text-amber-300 group-hover:border-amber-500/40 flex items-center justify-center shrink-0 shadow-inner transition-colors">
         {icon}
       </div>
       <div>
@@ -46,10 +47,10 @@ function CounterItem({ end, prefix = "", suffix = "", decimals = 0, label, subla
           <span>{decimals > 0 ? count.toFixed(decimals) : Math.floor(count).toLocaleString()}</span>
           <span>{suffix}</span>
         </div>
-        <div className="text-xs font-bold text-slate-200 leading-tight mt-0.5">
+        <div className="text-[11px] font-bold uppercase tracking-wider text-slate-300 leading-tight mt-0.5">
           {label}
         </div>
-        <div className="text-[11px] font-medium text-amber-300/90">
+        <div className="text-[11px] font-mono text-amber-400/90 font-medium">
           {sublabel}
         </div>
       </div>
@@ -69,27 +70,27 @@ export default function AnimatedHeroCounters() {
         suffix="B"
         label={language === "ceb" ? "2024 Pondo sa Dakbayan" : "2024 Approved Budget"}
         sublabel="+7.62% YoY Fiscal Growth"
-        icon="📊"
+        icon={<Landmark className="w-5 h-5" />}
       />
       <CounterItem
         end={182}
         label={language === "ceb" ? "Total nga mga Barangay" : "Covered Barangays"}
         sublabel="Across 3 Cong. Districts"
-        icon="🏛️"
+        icon={<Building2 className="w-5 h-5" />}
       />
       <CounterItem
         end={2443}
         suffix=" km²"
         label={language === "ceb" ? "Gidak-on sa Yuta" : "City Land Area"}
         sublabel="Largest in the Philippines"
-        icon="🏔️"
+        icon={<Mountain className="w-5 h-5" />}
       />
       <CounterItem
         end={24}
         suffix="/7"
         label="Central 911 Hotline"
         sublabel="Zero-Cost Rapid Dispatch"
-        icon="🚑"
+        icon={<ShieldAlert className="w-5 h-5" />}
       />
     </div>
   );

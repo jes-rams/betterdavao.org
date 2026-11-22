@@ -4,8 +4,8 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  --background: #fbfbfa;
+  --foreground: #09111e;
 }
 
 @theme inline {
@@ -13,10 +13,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
 }
 
 .dark {
-  --background: #0b1120;
+  --background: #060b13;
   --foreground: #f8fafc;
 }
 
@@ -27,10 +28,54 @@ body {
   overflow-x: hidden;
 }
 
+/* Stately Editorial Typography */
+.font-serif-civic {
+  font-family: var(--font-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Precision Civic Dossier Cards */
+.civic-card,
+.civic-dossier-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.03), inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .civic-card,
+.dark .civic-dossier-card,
+.dark.civic-card {
+  background-color: #0b1322;
+  border-color: rgba(30, 48, 77, 0.85);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+.civic-card:hover,
+.civic-dossier-card:hover {
+  border-color: #c59b27;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -8px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(197, 155, 39, 0.08);
+}
+
+.dark .civic-card:hover,
+.dark .civic-dossier-card:hover {
+  border-color: #dfb141;
+  box-shadow: 0 14px 32px -8px rgba(0, 0, 0, 0.7), 0 0 20px 1px rgba(197, 155, 39, 0.15);
+}
+
+/* Subtle Institutional Telemetry Tag */
+.telemetry-tag {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 /* Custom Sleek Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -46,70 +91,18 @@ body {
   background: rgba(100, 116, 139, 0.5);
 }
 
-/* Subtle Professional Animations */
-@keyframes pulse-subtle {
-  0%, 100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.85;
-    transform: scale(1.02);
-  }
-}
-
-.animate-pulse-subtle {
-  animation: pulse-subtle 3s ease-in-out infinite;
-}
-
-/* Solid, High-Contrast Civic Card Surfaces */
-.civic-card {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.dark .civic-card,
-.dark.civic-card {
-  background-color: #0f172a;
-  border-color: #1e293b;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3);
-}
-
-.civic-card:hover {
-  border-color: #93c5fd;
-  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.04);
-}
-
-.dark .civic-card:hover {
-  border-color: #3b82f6;
-  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.4);
-}
-
-/* Backwards-compatibility for existing glass-panel references */
+/* Backwards-compatible glass-panel alias */
 .glass-panel {
   background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04);
 }
 
 .dark .glass-panel {
-  background-color: #0f172a;
-  border-color: #1e293b;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3);
+  background-color: #0b1322;
+  border-color: rgba(30, 48, 77, 0.85);
 }
 
 .glow-card {
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.glow-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 24px -6px rgb(0 0 0 / 0.08);
-}
-
-.dark .glow-card:hover {
-  box-shadow: 0 12px 24px -6px rgb(0 0 0 / 0.4);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
