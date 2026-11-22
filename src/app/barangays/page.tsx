@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import DavaoDistrictMap from "@/components/DavaoDistrictMap";
 import barangaysData from "@/data/barangays.json";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -81,6 +82,9 @@ export default function BarangaysPage() {
 
       {/* Main Content Area */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8 flex-1 w-full">
+        {/* Interactive District Vector Map */}
+        <DavaoDistrictMap />
+
         {/* Search & Filters */}
         <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 space-y-4">
           <div className="flex flex-col md:flex-row gap-3 items-center justify-between">
