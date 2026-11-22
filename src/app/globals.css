@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Enable class-based dark mode selector in Tailwind CSS v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;
@@ -12,11 +15,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #020617;
-    --foreground: #f8fafc;
-  }
+.dark {
+  --background: #0b1120;
+  --foreground: #f8fafc;
 }
 
 body {
@@ -45,90 +46,70 @@ body {
   background: rgba(100, 116, 139, 0.5);
 }
 
-/* Modern Animations */
-@keyframes float {
+/* Subtle Professional Animations */
+@keyframes pulse-subtle {
   0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-}
-
-@keyframes pulse-glow {
-  0%, 100% {
-    opacity: 0.4;
+    opacity: 1;
     transform: scale(1);
   }
   50% {
-    opacity: 0.8;
-    transform: scale(1.05);
+    opacity: 0.85;
+    transform: scale(1.02);
   }
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
 }
 
-@keyframes gradient-xy {
-  0%, 100% {
-    background-size: 400% 400%;
-    background-position: 0% 50%;
-  }
-  50% {
-    background-size: 200% 200%;
-    background-position: 100% 50%;
-  }
+/* Solid, High-Contrast Civic Card Surfaces */
+.civic-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.animate-float {
-  animation: float 5s ease-in-out infinite;
+.dark .civic-card,
+.dark.civic-card {
+  background-color: #0f172a;
+  border-color: #1e293b;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3);
 }
 
-.animate-pulse-glow {
-  animation: pulse-glow 4s ease-in-out infinite;
+.civic-card:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.04);
 }
 
-.animate-shimmer {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 200% 100%;
-  animation: shimmer 2.5s infinite;
+.dark .civic-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.4);
 }
 
-/* Modern Glass & Glow Utility */
+/* Backwards-compatibility for existing glass-panel references */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(226, 232, 240, 0.8);
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .dark .glass-panel {
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(30, 41, 59, 0.8);
+  background-color: #0f172a;
+  border-color: #1e293b;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3);
 }
 
 .glow-card {
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .glow-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 35px -10px rgba(37, 99, 235, 0.15), 0 0 20px 2px rgba(59, 130, 246, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -6px rgb(0 0 0 / 0.08);
 }
 
 .dark .glow-card:hover {
-  box-shadow: 0 20px 35px -10px rgba(37, 99, 235, 0.3), 0 0 25px 2px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 12px 24px -6px rgb(0 0 0 / 0.4);
 }

@@ -36,20 +36,20 @@ function CounterItem({ end, prefix = "", suffix = "", decimals = 0, label, subla
   }, [end]);
 
   return (
-    <div className="glass-panel p-4 sm:p-5 rounded-2xl glow-card flex items-center gap-3.5 relative overflow-hidden group">
-      <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/10 border border-blue-400/30 flex items-center justify-center text-xl shrink-0 group-hover:scale-110 transition-transform">
+    <div className="bg-slate-900/90 border border-slate-700/80 hover:border-blue-500/60 p-4 sm:p-5 rounded-2xl shadow-lg flex items-center gap-3.5 transition-all duration-200">
+      <div className="w-12 h-12 rounded-xl bg-blue-950 border border-blue-800/80 flex items-center justify-center text-2xl shrink-0 shadow-inner">
         {icon}
       </div>
       <div>
-        <div className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight flex items-baseline gap-0.5">
+        <div className="text-2xl sm:text-3xl font-black text-white tracking-tight flex items-baseline gap-0.5 font-mono">
           <span>{prefix}</span>
           <span>{decimals > 0 ? count.toFixed(decimals) : Math.floor(count).toLocaleString()}</span>
           <span>{suffix}</span>
         </div>
-        <div className="text-xs font-bold text-slate-700 dark:text-slate-300 leading-tight mt-0.5">
+        <div className="text-xs font-bold text-slate-200 leading-tight mt-0.5">
           {label}
         </div>
-        <div className="text-[10px] text-slate-400 dark:text-slate-500">
+        <div className="text-[11px] font-medium text-amber-300/90">
           {sublabel}
         </div>
       </div>

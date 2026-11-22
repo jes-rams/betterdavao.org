@@ -77,12 +77,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col relative bg-slate-50 dark:bg-slate-950 dark:text-slate-200 transition-colors duration-300">
+      <body className="min-h-full flex flex-col relative bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 transition-colors duration-200">
         <ThemeProvider>
           <LanguageProvider>
-            <div className="fixed inset-0 z-[-1] pointer-events-none opacity-[0.03] dark:opacity-[0.1]">
-              <img src="/images/landmarks/mount-apo.jpg" alt="" className="w-full h-full object-cover" />
-            </div>
             {children}
             <CommandPalette />
             <AskDavaoAI />
