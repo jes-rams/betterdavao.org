@@ -25,10 +25,6 @@ export default function ServicesPage() {
     });
   }, [selectedCategory, searchQuery]);
 
-  const handlePrint = (serviceTitle: string) => {
-    window.print();
-  };
-
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 flex flex-col font-sans transition-colors duration-200">
       <Navbar />
@@ -114,7 +110,7 @@ export default function ServicesPage() {
             {filteredServices.map((service: any) => (
               <div
                 key={service.id}
-                className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-blue-400 dark:hover:border-blue-500 transition flex flex-col justify-between overflow-hidden"
+                className="civic-card rounded-2xl flex flex-col justify-between overflow-hidden group"
               >
                 {service.image && (
                   <div className="w-full h-44 bg-slate-200 dark:bg-slate-800 overflow-hidden relative border-b border-slate-100 dark:border-slate-800">
@@ -169,14 +165,6 @@ export default function ServicesPage() {
                         Track Status
                       </a>
                     )}
-
-                    <button
-                      onClick={() => handlePrint(service.title)}
-                      className="inline-flex items-center gap-1 px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-400 text-xs font-semibold border border-slate-200 dark:border-slate-700 transition"
-                      title="Print Service Guide / Checklist"
-                    >
-                      🖨️ Print Checklist
-                    </button>
                   </div>
                 </div>
               </div>
