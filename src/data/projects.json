@@ -4,45 +4,113 @@
     "ongoing": [
       {
         "name": "Davao City Bypass Construction Project",
-        "description": "45.5-kilometer project connecting Toril to Panabo City with the Philippines' first long-distance mountain tunnel.",
-        "image": "/images/projects/proj-ongoing-0.jpg"
+        "description": "45.5-kilometer project connecting Toril to Panabo City with the Philippines' first long-distance mountain tunnel (2.3 km twin tunnels).",
+        "image": "/images/projects/proj-ongoing-0.jpg",
+        "progress_percent": 68,
+        "target_completion": "2027",
+        "budget": "₱46.8 Billion (DPWH / JICA)",
+        "sector": "Highways & Tunnels",
+        "milestones": [
+          { "title": "South Tunnel Breakthrough", "status": "completed", "date": "2024" },
+          { "title": "North Portal Civil Works", "status": "active", "date": "2025-2026" },
+          { "title": "Full Corridor Paving & Opening", "status": "pending", "date": "2027" }
+        ]
       },
       {
         "name": "Samal Island–Davao City Connector (SIDC) Bridge",
-        "description": "3.98-kilometer, four-lane extradosed bridge project linking Davao City and Samal.",
-        "image": "/images/projects/proj-ongoing-1.jpg"
+        "description": "3.98-kilometer, four-lane extradosed toll-free bridge linking R. Castillo St. (Agdao) directly to Samal Island.",
+        "image": "/images/projects/proj-ongoing-1.jpg",
+        "progress_percent": 42,
+        "target_completion": "2027",
+        "budget": "₱23.0 Billion (DPWH / ODA)",
+        "sector": "Marine Bridges",
+        "milestones": [
+          { "title": "Detailed Engineering & Marine Borings", "status": "completed", "date": "2023" },
+          { "title": "Deep Water Pier Foundations", "status": "active", "date": "2025" },
+          { "title": "Superstructure Cable Installation", "status": "pending", "date": "2026-2027" }
+        ]
       },
       {
-        "name": "Davao Public Transport Modernization Project (DPTMP) / HPBS",
-        "description": "Establishing a modern bus-based public transport system with a 672-kilometer network and 1,100 buses (electric and Euro-V diesel). Partial operations expected in 2026.",
-        "image": "/images/projects/proj-ongoing-2.jpg"
+        "name": "Davao Public Transport Modernization (DPTMP / HPBS)",
+        "description": "Modern bus-based rapid transit with a 672-kilometer network and 1,100 clean energy buses (electric and Euro-V diesel).",
+        "image": "/images/projects/proj-ongoing-2.jpg",
+        "progress_percent": 55,
+        "target_completion": "2026-2027",
+        "budget": "₱73.4 Billion (DOTr / ADB / LGU)",
+        "sector": "Public Mass Transit",
+        "milestones": [
+          { "title": "Route Network & Depot Land Acquisition", "status": "completed", "date": "2024" },
+          { "title": "Bus Fleet Procurement & Charging Depots", "status": "active", "date": "2025-2026" },
+          { "title": "Full Commercial Bus Operation", "status": "pending", "date": "2027" }
+        ]
       },
       {
         "name": "Davao International Airport Modernization",
-        "description": "Upgrades to the airport including passenger terminal building expansion.",
-        "image": "/images/projects/proj-ongoing-3.jpg"
+        "description": "Upgrades to Francisco Bangoy International Airport including parallel taxiway, passenger terminal expansion, and advanced baggage systems.",
+        "image": "/images/projects/proj-ongoing-3.jpg",
+        "progress_percent": 50,
+        "target_completion": "2026",
+        "budget": "₱1.4 Billion (DOTr / CAAP)",
+        "sector": "Aviation",
+        "milestones": [
+          { "title": "Passenger Terminal North Wing Expansion", "status": "completed", "date": "2024" },
+          { "title": "Runway Strip & Taxiway Extension", "status": "active", "date": "2025" },
+          { "title": "Digital Customs & Baggage Overhaul", "status": "pending", "date": "2026" }
+        ]
       },
       {
-        "name": "Davao City Coastal Road",
-        "description": "17.8-kilometer bypass road designed to decongest city proper, act as storm-surge barrier, and serve as public promenade. Segments A, B, C are operational/near completion.",
-        "image": "/images/projects/proj-ongoing-4.jpg"
+        "name": "Davao City Coastal Road & Bucana Bridge",
+        "description": "17.8-kilometer coastal highway from Bago Aplaya to R. Castillo, featuring storm-surge revetment and public recreational esplanade.",
+        "image": "/images/projects/proj-ongoing-4.jpg",
+        "progress_percent": 88,
+        "target_completion": "2025-2026",
+        "budget": "₱33.7 Billion (DPWH)",
+        "sector": "Coastal Defense & Urban Roads",
+        "milestones": [
+          { "title": "Bago Aplaya to Times Beach Section", "status": "completed", "date": "2023" },
+          { "title": "Bucana Steel Bridge Construction", "status": "active", "date": "2025" },
+          { "title": "Final Interconnection to R. Castillo St.", "status": "pending", "date": "2026" }
+        ]
       },
       {
-        "name": "Waste-to-Energy (WTE) Plant",
-        "description": "Proposed facility in Tugbok District designed to process 600 tons of solid waste daily, generating 11 MW of electricity. Estimated cost ₱5B-₱7B.",
-        "image": "/images/projects/proj-ongoing-5.jpg"
+        "name": "Waste-to-Energy (WTE) Facility",
+        "description": "Modern sustainable municipal facility in Tugbok District converting 600 tons of daily solid waste into 11 MW of clean electric power.",
+        "image": "/images/projects/proj-ongoing-5.jpg",
+        "progress_percent": 30,
+        "target_completion": "2027",
+        "budget": "₱6.5 Billion (DENR / JICA / LGU)",
+        "sector": "Environmental Technology",
+        "milestones": [
+          { "title": "Feasibility & Environmental Compliance (ECC)", "status": "completed", "date": "2023" },
+          { "title": "Site Engineering & Technology Bidding", "status": "active", "date": "2025" },
+          { "title": "Plant Commissioning & Grid Feed", "status": "pending", "date": "2027" }
+        ]
       }
     ],
     "completed": [
       {
-        "name": "Local Infrastructure Projects",
-        "description": "740 infrastructure projects completed between 2020 and 2024 including roads, bridges, irrigation, and public buildings.",
-        "image": "/images/projects/proj-completed-0.jpg"
+        "name": "Local Infrastructure & Barangay Hall Overhauls",
+        "description": "740 completed municipal infrastructure projects between 2020 and 2024 including farm-to-market roads, solar streetlights, and drainage.",
+        "image": "/images/projects/proj-completed-0.jpg",
+        "progress_percent": 100,
+        "target_completion": "Completed (2024)",
+        "budget": "₱4.8 Billion (City Engineering / ADF)",
+        "sector": "Community Public Works",
+        "milestones": [
+          { "title": "740 Sub-projects Delivered", "status": "completed", "date": "2024" }
+        ]
       },
       {
-        "name": "Flood Control Initiatives",
-        "description": "Revetment walls and river embankments along the Talomo River.",
-        "image": "/images/projects/proj-completed-1.jpg"
+        "name": "Talomo & Davao River Flood Control Revetments",
+        "description": "High-durability sheet-pile reinforced retaining walls safeguarding flood-prone communities along major river basins.",
+        "image": "/images/projects/proj-completed-1.jpg",
+        "progress_percent": 100,
+        "target_completion": "Completed (2023)",
+        "budget": "₱2.2 Billion (DPWH Region XI)",
+        "sector": "Disaster & Flood Defense",
+        "milestones": [
+          { "title": "Critical River Encasements Completed", "status": "completed", "date": "2023" }
+        ]
       }
     ]
   }

@@ -38,13 +38,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/services" className="hover:text-white transition">
+                  Citizen E-Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/barangays" className="hover:text-white transition">
+                  Barangay Directory
+                </Link>
+              </li>
+              <li>
                 <Link href="/budget" className="hover:text-white transition">
-                  Annual Budget
+                  Annual Budget &amp; Tax Tool
                 </Link>
               </li>
               <li>
                 <Link href="/projects" className="hover:text-white transition">
-                  Major Projects
+                  Infrastructure Tracker
                 </Link>
               </li>
               <li>
@@ -54,7 +64,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="hover:text-white transition">
-                  Our Mission & Methodology
+                  Mission &amp; Methodology
                 </Link>
               </li>
             </ul>
